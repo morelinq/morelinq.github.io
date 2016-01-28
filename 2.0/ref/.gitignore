@@ -1,0 +1,7 @@
+*.php
+*.aspx
+*.log
+fti
+[Pp]ublic[Aa]pi
+*.[Cc]onfig
+api/[Ww]eb*.xml

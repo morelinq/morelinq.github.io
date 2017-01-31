@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="A:\MoreLINQ\main\MoreLinq.shfbproj" started="31/01/2017 08:20:19">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    A:\MoreLINQ\main
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 3.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2016.9.17.0
+Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: A:\MoreLINQ\main\MoreLinq\bin\Release\net35\MoreLinq.dll
+    Found assembly &#39;A:\MoreLINQ\main\MoreLinq\bin\Release\net35\MoreLinq.dll&#39;
+Source: A:\MoreLINQ\main\MoreLinq\bin\Release\net35\MoreLinq.xml
+
+Copying XML comments files
+    A:\MoreLINQ\main\MoreLinq\bin\Release\net35\MoreLinq.xml -&gt; A:\MoreLINQ\main\docs\api\Working\MoreLinq.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0155
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 31/01/2017 08:20:21.
+Project &quot;A:\MoreLINQ\main\docs\api\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 3 types, and 195 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;A:\MoreLINQ\main\docs\api\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61
+    Last step completed in 00:00:00.8205
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
+Build started 31/01/2017 08:20:22.
+Project &quot;A:\MoreLINQ\main\docs\api\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_MoreLinq_MoreEnumerable_Assert__1_1 generated for M:MoreLinq.MoreEnumerable.Assert``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,System.Exception})
+    Unique name M_MoreLinq_MoreEnumerable_AssertCount__1_1 generated for M:MoreLinq.MoreEnumerable.AssertCount``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{System.Int32,System.Int32,System.Exception})
+    Unique name M_MoreLinq_MoreEnumerable_Concat__1_1 generated for M:MoreLinq.MoreEnumerable.Concat``1(``0,System.Collections.Generic.IEnumerable{``0})
+    Unique name M_MoreLinq_MoreEnumerable_CountBy__2_1 generated for M:MoreLinq.MoreEnumerable.CountBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_DistinctBy__2_1 generated for M:MoreLinq.MoreEnumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_EndsWith__1_1 generated for M:MoreLinq.MoreEnumerable.EndsWith``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_ExceptBy__2_1 generated for M:MoreLinq.MoreEnumerable.ExceptBy``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_1 generated for M:MoreLinq.MoreEnumerable.FallbackIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0)
+    Unique name M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_2 generated for M:MoreLinq.MoreEnumerable.FallbackIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0,``0)
+    Unique name M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_3 generated for M:MoreLinq.MoreEnumerable.FallbackIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0,``0,``0)
+    Unique name M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_4 generated for M:MoreLinq.MoreEnumerable.FallbackIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0,``0,``0,``0)
+    Unique name M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_5 generated for M:MoreLinq.MoreEnumerable.FallbackIfEmpty``1(System.Collections.Generic.IEnumerable{``0},``0[])
+    Unique name M_MoreLinq_MoreEnumerable_FillBackward__1_1 generated for M:MoreLinq.MoreEnumerable.FillBackward``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+    Unique name M_MoreLinq_MoreEnumerable_FillBackward__1_2 generated for M:MoreLinq.MoreEnumerable.FillBackward``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``0,``0})
+    Unique name M_MoreLinq_MoreEnumerable_FillForward__1_1 generated for M:MoreLinq.MoreEnumerable.FillForward``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+    Unique name M_MoreLinq_MoreEnumerable_FillForward__1_2 generated for M:MoreLinq.MoreEnumerable.FillForward``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``0,``0})
+    Unique name M_MoreLinq_MoreEnumerable_Fold__2_1 generated for M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``1})
+    Unique name M_MoreLinq_MoreEnumerable_Fold__2_2 generated for M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``1})
+    Unique name M_MoreLinq_MoreEnumerable_Fold__2_3 generated for M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``1})
+    Unique name M_MoreLinq_MoreEnumerable_ForEach__1_1 generated for M:MoreLinq.MoreEnumerable.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})
+    Unique name M_MoreLinq_MoreEnumerable_FullGroupJoin__4_1 generated for M:MoreLinq.MoreEnumerable.FullGroupJoin``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``2,System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},``3},System.Collections.Generic.IEqualityComparer{``2})
+    Unique name M_MoreLinq_MoreEnumerable_GroupAdjacent__2_1 generated for M:MoreLinq.MoreEnumerable.GroupAdjacent``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_GroupAdjacent__3_1 generated for M:MoreLinq.MoreEnumerable.GroupAdjacent``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_GroupAdjacent__3_2 generated for M:MoreLinq.MoreEnumerable.GroupAdjacent``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2})
+    Unique name M_MoreLinq_MoreEnumerable_GroupAdjacent__3_3 generated for M:MoreLinq.MoreEnumerable.GroupAdjacent``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``1,System.Collections.Generic.IEnumerable{``0},``2},System.Collections.Generic.IEqualityComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_Incremental__2_1 generated for M:MoreLinq.MoreEnumerable.Incremental``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Int32,``1})
+    Unique name M_MoreLinq_MoreEnumerable_Index__1_1 generated for M:MoreLinq.MoreEnumerable.Index``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Lag__2_1 generated for M:MoreLinq.MoreEnumerable.Lag``2(System.Collections.Generic.IEnumerable{``0},System.Int32,``0,System.Func{``0,``0,``1})
+    Unique name M_MoreLinq_MoreEnumerable_Lead__2_1 generated for M:MoreLinq.MoreEnumerable.Lead``2(System.Collections.Generic.IEnumerable{``0},System.Int32,``0,System.Func{``0,``0,``1})
+    Unique name M_MoreLinq_MoreEnumerable_MaxBy__2_1 generated for M:MoreLinq.MoreEnumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_MinBy__2_1 generated for M:MoreLinq.MoreEnumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_OrderBy__2_1 generated for M:MoreLinq.MoreEnumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1},MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_OrderedMerge__1_1 generated for M:MoreLinq.MoreEnumerable.OrderedMerge``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_OrderedMerge__3_1 generated for M:MoreLinq.MoreEnumerable.OrderedMerge``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Func{``0,``2},System.Func{``0,``0,``2},System.Collections.Generic.IComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_OrderedMerge__4_1 generated for M:MoreLinq.MoreEnumerable.OrderedMerge``4(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``2},System.Func{``1,``2},System.Func{``0,``3},System.Func{``1,``3},System.Func{``0,``1,``3},System.Collections.Generic.IComparer{``2})
+    Unique name M_MoreLinq_MoreEnumerable_Pad__1_1 generated for M:MoreLinq.MoreEnumerable.Pad``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{System.Int32,``0})
+    Unique name M_MoreLinq_MoreEnumerable_Pad__1_2 generated for M:MoreLinq.MoreEnumerable.Pad``1(System.Collections.Generic.IEnumerable{``0},System.Int32,``0)
+    Unique name M_MoreLinq_MoreEnumerable_PartialSort__1_1 generated for M:MoreLinq.MoreEnumerable.PartialSort``1(System.Collections.Generic.IEnumerable{``0},System.Int32,MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_PartialSort__1_2 generated for M:MoreLinq.MoreEnumerable.PartialSort``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Collections.Generic.IComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_PartialSort__1_3 generated for M:MoreLinq.MoreEnumerable.PartialSort``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Collections.Generic.IComparer{``0},MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_PartialSortBy__2_1 generated for M:MoreLinq.MoreEnumerable.PartialSortBy``2(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{``0,``1},MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_PartialSortBy__2_2 generated for M:MoreLinq.MoreEnumerable.PartialSortBy``2(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_PartialSortBy__2_3 generated for M:MoreLinq.MoreEnumerable.PartialSortBy``2(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{``0,``1},System.Collections.Generic.IComparer{``1},MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_Random_1 generated for M:MoreLinq.MoreEnumerable.Random(System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Random_2 generated for M:MoreLinq.MoreEnumerable.Random(System.Int32,System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Random_3 generated for M:MoreLinq.MoreEnumerable.Random(System.Random)
+    Unique name M_MoreLinq_MoreEnumerable_Random_4 generated for M:MoreLinq.MoreEnumerable.Random(System.Random,System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Random_5 generated for M:MoreLinq.MoreEnumerable.Random(System.Random,System.Int32,System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_RandomDouble_1 generated for M:MoreLinq.MoreEnumerable.RandomDouble(System.Random)
+    Unique name M_MoreLinq_MoreEnumerable_RandomSubset__1_1 generated for M:MoreLinq.MoreEnumerable.RandomSubset``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)
+    Unique name M_MoreLinq_MoreEnumerable_Rank__1_1 generated for M:MoreLinq.MoreEnumerable.Rank``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_RankBy__2_1 generated for M:MoreLinq.MoreEnumerable.RankBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1})
+    Unique name M_MoreLinq_MoreEnumerable_RunLengthEncode__1_1 generated for M:MoreLinq.MoreEnumerable.RunLengthEncode``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_Segment__1_1 generated for M:MoreLinq.MoreEnumerable.Segment``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32,System.Boolean})
+    Unique name M_MoreLinq_MoreEnumerable_Segment__1_2 generated for M:MoreLinq.MoreEnumerable.Segment``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,System.Int32,System.Boolean})
+    Unique name M_MoreLinq_MoreEnumerable_SortedMerge__1_1 generated for M:MoreLinq.MoreEnumerable.SortedMerge``1(System.Collections.Generic.IEnumerable{``0},MoreLinq.OrderByDirection,System.Collections.Generic.IEnumerable{``0}[])
+    Unique name M_MoreLinq_MoreEnumerable_Split__1_1 generated for M:MoreLinq.MoreEnumerable.Split``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Split__2_1 generated for M:MoreLinq.MoreEnumerable.Split``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32,System.Func{System.Collections.Generic.IEnumerable{``0},``1})
+    Unique name M_MoreLinq_MoreEnumerable_Split__1_2 generated for M:MoreLinq.MoreEnumerable.Split``1(System.Collections.Generic.IEnumerable{``0},``0)
+    Unique name M_MoreLinq_MoreEnumerable_Split__1_3 generated for M:MoreLinq.MoreEnumerable.Split``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_Split__2_2 generated for M:MoreLinq.MoreEnumerable.Split``2(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0},System.Func{System.Collections.Generic.IEnumerable{``0},``1})
+    Unique name M_MoreLinq_MoreEnumerable_Split__1_4 generated for M:MoreLinq.MoreEnumerable.Split``1(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0},System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Split__2_3 generated for M:MoreLinq.MoreEnumerable.Split``2(System.Collections.Generic.IEnumerable{``0},``0,System.Collections.Generic.IEqualityComparer{``0},System.Int32,System.Func{System.Collections.Generic.IEnumerable{``0},``1})
+    Unique name M_MoreLinq_MoreEnumerable_Split__2_4 generated for M:MoreLinq.MoreEnumerable.Split``2(System.Collections.Generic.IEnumerable{``0},``0,System.Func{System.Collections.Generic.IEnumerable{``0},``1})
+    Unique name M_MoreLinq_MoreEnumerable_Split__1_5 generated for M:MoreLinq.MoreEnumerable.Split``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_Split__2_5 generated for M:MoreLinq.MoreEnumerable.Split``2(System.Collections.Generic.IEnumerable{``0},``0,System.Int32,System.Func{System.Collections.Generic.IEnumerable{``0},``1})
+    Unique name M_MoreLinq_MoreEnumerable_StartsWith__1_1 generated for M:MoreLinq.MoreEnumerable.StartsWith``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_Subsets__1_1 generated for M:MoreLinq.MoreEnumerable.Subsets``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    Unique name M_MoreLinq_MoreEnumerable_ThenBy__2_1 generated for M:MoreLinq.MoreEnumerable.ThenBy``2(System.Linq.IOrderedEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1},MoreLinq.OrderByDirection)
+    Unique name M_MoreLinq_MoreEnumerable_ToDataTable__1_1 generated for M:MoreLinq.MoreEnumerable.ToDataTable``1(System.Collections.Generic.IEnumerable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+    Unique name M_MoreLinq_MoreEnumerable_ToDataTable__2_1 generated for M:MoreLinq.MoreEnumerable.ToDataTable``2(System.Collections.Generic.IEnumerable{``0},``1,System.Linq.Expressions.Expression{System.Func{``0,System.Object}}[])
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_1 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Boolean},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_2 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Byte})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_3 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Byte},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_4 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Char})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_5 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Char},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_6 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Decimal})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_7 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Decimal},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_8 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Double})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_9 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Double},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_10 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int16})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_11 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int16},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_12 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int32})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_13 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int32},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_14 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int64})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_15 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Int64},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_16 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.SByte})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_17 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.SByte},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_18 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Single})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_19 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.Single},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_20 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.String})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_21 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.String},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_22 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt16})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_23 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt16},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_24 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt32})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_25 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt32},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_26 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt64})
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString_27 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString(System.Collections.Generic.IEnumerable{System.UInt64},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToDelimitedString__1_1 generated for M:MoreLinq.MoreEnumerable.ToDelimitedString``1(System.Collections.Generic.IEnumerable{``0},System.String)
+    Unique name M_MoreLinq_MoreEnumerable_ToHashSet__1_1 generated for M:MoreLinq.MoreEnumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
+    Unique name M_MoreLinq_MoreEnumerable_Trace__1_1 generated for M:MoreLinq.MoreEnumerable.Trace``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String})
+    Unique name M_MoreLinq_MoreEnumerable_Trace__1_2 generated for M:MoreLinq.MoreEnumerable.Trace``1(System.Collections.Generic.IEnumerable{``0},System.String)
+    Unique name M_MoreLinq_SequenceException__ctor_1 generated for M:MoreLinq.SequenceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    Unique name M_MoreLinq_SequenceException__ctor_2 generated for M:MoreLinq.SequenceException.#ctor(System.String)
+    Unique name M_MoreLinq_SequenceException__ctor_3 generated for M:MoreLinq.SequenceException.#ctor(System.String,System.Exception)
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;A:\MoreLINQ\main\docs\api\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96
+    Last step completed in 00:00:01.1525
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0215
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0025
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 31/01/2017 08:20:23.
+Project &quot;A:\MoreLINQ\main\docs\api\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;A:\MoreLINQ\main\docs\api\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2205
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.1895
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+A:\MoreLINQ\main\docs\api\Working\sandcastle.config
+  Updating reference topic configurations.
+    Added configuration for &#39;IntelliSense Component&#39; after &#39;Show Missing Documentation Component&#39; (instance 1)
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0110
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
+Build started 31/01/2017 08:20:23.
+Project &quot;A:\MoreLINQ\main\docs\api\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2016.9.17.0)
+  Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [M:MoreLinq.MoreEnumerable.FillBackward``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{``0,``0,``0})] Missing &lt;returns&gt; documentation [A:\MoreLINQ\main\docs\api\Working\BuildTopics.proj]
+  Processed 246 topic(s)
+  1 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;A:\MoreLINQ\main\docs\api\Working\BuildTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.40
+    Last step completed in 00:00:10.6631
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2016.9.17.0
+Copyright c 2006-2016, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in A:\MoreLINQ\main\docs\api\Working\Output\Website
+Processed 246 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to A:\MoreLINQ\main\docs\api\Working\WebKI.xml
+Saving website table of contents to A:\MoreLINQ\main\docs\api\Working\WebTOC.xml
+    Last step completed in 00:00:00.3215
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; A:\MoreLINQ\main\docs\api\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.2730
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0015
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00.7195
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 401 files for the website content
+    Last step completed in 00:00:00.5427
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1575
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 31/01/2017 08:20:36.  Total time: 00:00:16.7819
+
+</buildStep>
+</shfbBuild>

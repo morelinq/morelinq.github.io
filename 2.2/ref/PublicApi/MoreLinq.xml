@@ -1513,9 +1513,17 @@
       <typeparam name="TKey">The type of the key used to rank items in the sequence</typeparam>
       <returns>A sequence of position integers representing the ranks of the corresponding items in the sequence</returns>
     </member>
+    <member name="M:MoreLinq.MoreEnumerable.Repeat``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Repeats the sequence forever.
+            </summary>
+      <param name="sequence">The sequence to repeat</param>
+      <typeparam name="T">Type of elements in sequence</typeparam>
+      <returns>A sequence produced from the infinite repetition of the original source sequence</returns>
+    </member>
     <member name="M:MoreLinq.MoreEnumerable.Repeat``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
       <summary>
-            Repeats the specific sequences <paramref name="count" /> times.
+            Repeats the sequence the specified number of times.
             </summary>
       <param name="sequence">The sequence to repeat</param>
       <param name="count">Number of times to repeat the sequence</param>
@@ -1633,6 +1641,25 @@
             fallback delegate if the sequence is empty.</returns>
       <exception cref="T:System.ArgumentNullException">source or fallback is null</exception>
       <exception cref="T:System.InvalidOperationException">The sequence has more than one element</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.SkipLast``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
+      <summary>
+            Bypasses a specified number of elements at the end of the sequence.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="count">The number of elements to bypass at the end of the source sequence.</param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.SkipLast``1(System.Collections.Generic.IEnumerable{``0},System.Int32)</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <returns>
+            An <see cref="T:System.Collections.Generic.IEnumerable`1" /> containing the source sequence elements except for the bypassed ones at the end.
+            </returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.SkipUntil``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
       <summary>

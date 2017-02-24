@@ -116,14 +116,15 @@
   <HelpKINode Title="MoreEnumerable.RandomSubset method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomSubset.htm" />
   <HelpKINode Title="MoreEnumerable.Rank method" Url="html/Overload_MoreLinq_MoreEnumerable_Rank.htm" />
   <HelpKINode Title="MoreEnumerable.RankBy method" Url="html/Overload_MoreLinq_MoreEnumerable_RankBy.htm" />
-  <HelpKINode Title="MoreEnumerable.Repeat(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1.htm" />
-  <HelpKINode Title="MoreEnumerable.Repeat&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Repeat method" Url="html/Overload_MoreLinq_MoreEnumerable_Repeat.htm" />
   <HelpKINode Title="MoreEnumerable.RunLengthEncode method" Url="html/Overload_MoreLinq_MoreEnumerable_RunLengthEncode.htm" />
   <HelpKINode Title="MoreEnumerable.Scan method" Url="html/Overload_MoreLinq_MoreEnumerable_Scan.htm" />
   <HelpKINode Title="MoreEnumerable.Segment method" Url="html/Overload_MoreLinq_MoreEnumerable_Segment.htm" />
   <HelpKINode Title="MoreEnumerable.Sequence method" Url="html/Overload_MoreLinq_MoreEnumerable_Sequence.htm" />
   <HelpKINode Title="MoreEnumerable.SingleOrFallback(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
   <HelpKINode Title="MoreEnumerable.SingleOrFallback&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipLast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipLast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
   <HelpKINode Title="MoreEnumerable.SkipUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
   <HelpKINode Title="MoreEnumerable.SkipUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
   <HelpKINode Title="MoreEnumerable.Slice(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
@@ -180,8 +181,7 @@
   <HelpKINode Title="RandomSubset method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomSubset.htm" />
   <HelpKINode Title="Rank method" Url="html/Overload_MoreLinq_MoreEnumerable_Rank.htm" />
   <HelpKINode Title="RankBy method" Url="html/Overload_MoreLinq_MoreEnumerable_RankBy.htm" />
-  <HelpKINode Title="Repeat(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1.htm" />
-  <HelpKINode Title="Repeat&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1.htm" />
+  <HelpKINode Title="Repeat method" Url="html/Overload_MoreLinq_MoreEnumerable_Repeat.htm" />
   <HelpKINode Title="RunLengthEncode method" Url="html/Overload_MoreLinq_MoreEnumerable_RunLengthEncode.htm" />
   <HelpKINode Title="Scan method" Url="html/Overload_MoreLinq_MoreEnumerable_Scan.htm" />
   <HelpKINode Title="Segment method" Url="html/Overload_MoreLinq_MoreEnumerable_Segment.htm" />
@@ -196,6 +196,8 @@
   <HelpKINode Title="SequenceException.SequenceException constructor" Url="html/Overload_MoreLinq_SequenceException__ctor.htm" />
   <HelpKINode Title="SingleOrFallback(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
   <HelpKINode Title="SingleOrFallback&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="SkipLast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="SkipLast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
   <HelpKINode Title="SkipUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
   <HelpKINode Title="SkipUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
   <HelpKINode Title="Slice(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />

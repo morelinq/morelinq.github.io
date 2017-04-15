@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="ecbc04bb-50f6-4c6a-a50d-8926e447b19c" Title="MoreLinq" Url="html/N_MoreLinq.htm">
+    <HelpTOCNode Id="a0377cbe-6996-40db-a750-b2e28a57c8a5" Title="MoreEnumerable Class" Url="html/T_MoreLinq_MoreEnumerable.htm">
+      <HelpTOCNode Id="415b58e6-346e-4cb5-ba25-47c47f710775" Title="MoreEnumerable Methods" Url="html/Methods_T_MoreLinq_MoreEnumerable.htm">
+        <HelpTOCNode Title="Acquire(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_Acquire__1.htm" />
+        <HelpTOCNode Id="3867cd89-4f3c-468e-bc37-a43a96bb9d02" Title="AggregateRight Method " Url="html/Overload_MoreLinq_MoreEnumerable_AggregateRight.htm">
+          <HelpTOCNode Title="AggregateRight(TSource) Method (IEnumerable(TSource), Func(TSource, TSource, TSource))" Url="html/M_MoreLinq_MoreEnumerable_AggregateRight__1.htm" />
+          <HelpTOCNode Title="AggregateRight(TSource, TAccumulate) Method (IEnumerable(TSource), TAccumulate, Func(TSource, TAccumulate, TAccumulate))" Url="html/M_MoreLinq_MoreEnumerable_AggregateRight__2.htm" />
+          <HelpTOCNode Title="AggregateRight(TSource, TAccumulate, TResult) Method (IEnumerable(TSource), TAccumulate, Func(TSource, TAccumulate, TAccumulate), Func(TAccumulate, TResult))" Url="html/M_MoreLinq_MoreEnumerable_AggregateRight__3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b5fbc60e-aa94-40f0-a4a0-ed73a6d81f94" Title="Assert Method " Url="html/Overload_MoreLinq_MoreEnumerable_Assert.htm">
+          <HelpTOCNode Title="Assert(TSource) Method (IEnumerable(TSource), Func(TSource, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_Assert__1.htm" />
+          <HelpTOCNode Title="Assert(TSource) Method (IEnumerable(TSource), Func(TSource, Boolean), Func(TSource, Exception))" Url="html/M_MoreLinq_MoreEnumerable_Assert__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="046438a7-cc71-43e9-9b80-e156aecc1ea6" Title="AssertCount Method " Url="html/Overload_MoreLinq_MoreEnumerable_AssertCount.htm">
+          <HelpTOCNode Title="AssertCount(TSource) Method (IEnumerable(TSource), Int32)" Url="html/M_MoreLinq_MoreEnumerable_AssertCount__1.htm" />
+          <HelpTOCNode Title="AssertCount(TSource) Method (IEnumerable(TSource), Int32, Func(Int32, Int32, Exception))" Url="html/M_MoreLinq_MoreEnumerable_AssertCount__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AtLeast(T) Method " Url="html/M_MoreLinq_MoreEnumerable_AtLeast__1.htm" />
+        <HelpTOCNode Title="AtMost(T) Method " Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
+        <HelpTOCNode Id="63f054d6-be92-4386-9414-0912ec15b5ac" Title="Batch Method " Url="html/Overload_MoreLinq_MoreEnumerable_Batch.htm">
+          <HelpTOCNode Title="Batch(TSource) Method (IEnumerable(TSource), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Batch__1.htm" />
+          <HelpTOCNode Title="Batch(TSource, TResult) Method (IEnumerable(TSource), Int32, Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Batch__2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Cartesian(TFirst, TSecond, TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+        <HelpTOCNode Id="6a1a24cf-15e4-4418-bab6-8945ef9f47a1" Title="Concat Method " Url="html/Overload_MoreLinq_MoreEnumerable_Concat.htm">
+          <HelpTOCNode Title="Concat(T) Method (IEnumerable(T), T)" Url="html/M_MoreLinq_MoreEnumerable_Concat__1.htm" />
+          <HelpTOCNode Title="Concat(T) Method (T, IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_Concat__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Consume(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Consume__1.htm" />
+        <HelpTOCNode Title="CountBetween(T) Method " Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
+        <HelpTOCNode Id="b5e8cc8c-6d3e-483c-a67e-8de766af6bec" Title="CountBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_CountBy.htm">
+          <HelpTOCNode Title="CountBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_CountBy__2.htm" />
+          <HelpTOCNode Title="CountBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_CountBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="778f7e8b-6439-455f-8728-7c7e5103de55" Title="DistinctBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_DistinctBy.htm">
+          <HelpTOCNode Title="DistinctBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_DistinctBy__2.htm" />
+          <HelpTOCNode Title="DistinctBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_DistinctBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d275925-5b72-4597-a2d5-cbab44af5cbd" Title="EndsWith Method " Url="html/Overload_MoreLinq_MoreEnumerable_EndsWith.htm">
+          <HelpTOCNode Title="EndsWith(T) Method (IEnumerable(T), IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_EndsWith__1.htm" />
+          <HelpTOCNode Title="EndsWith(T) Method (IEnumerable(T), IEnumerable(T), IEqualityComparer(T))" Url="html/M_MoreLinq_MoreEnumerable_EndsWith__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b151e685-1372-4ab5-8335-8809768d5038" Title="EquiZip Method " Url="html/Overload_MoreLinq_MoreEnumerable_EquiZip.htm">
+          <HelpTOCNode Title="EquiZip(TFirst, TSecond, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TSecond, TResult))" Url="html/M_MoreLinq_MoreEnumerable_EquiZip__3.htm" />
+          <HelpTOCNode Title="EquiZip(T1, T2, T3, TResult) Method (IEnumerable(T1), IEnumerable(T2), IEnumerable(T3), Func(T1, T2, T3, TResult))" Url="html/M_MoreLinq_MoreEnumerable_EquiZip__4.htm" />
+          <HelpTOCNode Title="EquiZip(T1, T2, T3, T4, TResult) Method (IEnumerable(T1), IEnumerable(T2), IEnumerable(T3), IEnumerable(T4), Func(T1, T2, T3, T4, TResult))" Url="html/M_MoreLinq_MoreEnumerable_EquiZip__5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Exactly(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Exactly__1.htm" />
+        <HelpTOCNode Id="f412f6e1-1a16-4997-b6cd-a72d9a1c580c" Title="ExceptBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_ExceptBy.htm">
+          <HelpTOCNode Title="ExceptBy(TSource, TKey) Method (IEnumerable(TSource), IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_ExceptBy__2.htm" />
+          <HelpTOCNode Title="ExceptBy(TSource, TKey) Method (IEnumerable(TSource), IEnumerable(TSource), Func(TSource, TKey), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_ExceptBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Exclude(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Exclude__1.htm" />
+        <HelpTOCNode Id="1c39db85-904e-4b1e-8f4e-00ae0ed10065" Title="FallbackIfEmpty Method " Url="html/Overload_MoreLinq_MoreEnumerable_FallbackIfEmpty.htm">
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1.htm" />
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), T)" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_1.htm" />
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), T[])" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_5.htm" />
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), T, T)" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_2.htm" />
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), T, T, T)" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_3.htm" />
+          <HelpTOCNode Title="FallbackIfEmpty(T) Method (IEnumerable(T), T, T, T, T)" Url="html/M_MoreLinq_MoreEnumerable_FallbackIfEmpty__1_4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aae9aca3-eb80-489d-b000-d557396b240d" Title="FillBackward Method " Url="html/Overload_MoreLinq_MoreEnumerable_FillBackward.htm">
+          <HelpTOCNode Title="FillBackward(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_FillBackward__1.htm" />
+          <HelpTOCNode Title="FillBackward(T) Method (IEnumerable(T), Func(T, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_FillBackward__1_1.htm" />
+          <HelpTOCNode Title="FillBackward(T) Method (IEnumerable(T), Func(T, Boolean), Func(T, T, T))" Url="html/M_MoreLinq_MoreEnumerable_FillBackward__1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dd40f8b4-cd4d-47c7-b76b-4be1de92ecc1" Title="FillForward Method " Url="html/Overload_MoreLinq_MoreEnumerable_FillForward.htm">
+          <HelpTOCNode Title="FillForward(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_FillForward__1.htm" />
+          <HelpTOCNode Title="FillForward(T) Method (IEnumerable(T), Func(T, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_FillForward__1_1.htm" />
+          <HelpTOCNode Title="FillForward(T) Method (IEnumerable(T), Func(T, Boolean), Func(T, T, T))" Url="html/M_MoreLinq_MoreEnumerable_FillForward__1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0005a738-5214-4232-8b56-ac4c812e305f" Title="Fold Method " Url="html/Overload_MoreLinq_MoreEnumerable_Fold.htm">
+          <HelpTOCNode Title="Fold(T, TResult) Method (IEnumerable(T), Func(T, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Fold__2.htm" />
+          <HelpTOCNode Title="Fold(T, TResult) Method (IEnumerable(T), Func(T, T, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Fold__2_1.htm" />
+          <HelpTOCNode Title="Fold(T, TResult) Method (IEnumerable(T), Func(T, T, T, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Fold__2_2.htm" />
+          <HelpTOCNode Title="Fold(T, TResult) Method (IEnumerable(T), Func(T, T, T, T, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Fold__2_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a84981f8-abc7-4aa1-8a71-5c855bd99dae" Title="ForEach Method " Url="html/Overload_MoreLinq_MoreEnumerable_ForEach.htm">
+          <HelpTOCNode Title="ForEach(T) Method (IEnumerable(T), Action(T))" Url="html/M_MoreLinq_MoreEnumerable_ForEach__1.htm" />
+          <HelpTOCNode Title="ForEach(T) Method (IEnumerable(T), Action(T, Int32))" Url="html/M_MoreLinq_MoreEnumerable_ForEach__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="38bcada2-2877-4ee2-a174-9525b1a29fc1" Title="FullGroupJoin Method " Url="html/Overload_MoreLinq_MoreEnumerable_FullGroupJoin.htm">
+          <HelpTOCNode Title="FullGroupJoin(TFirst, TSecond, TKey, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TKey), Func(TSecond, TKey), Func(TKey, IEnumerable(TFirst), IEnumerable(TSecond), TResult))" Url="html/M_MoreLinq_MoreEnumerable_FullGroupJoin__4.htm" />
+          <HelpTOCNode Title="FullGroupJoin(TFirst, TSecond, TKey, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TKey), Func(TSecond, TKey), Func(TKey, IEnumerable(TFirst), IEnumerable(TSecond), TResult), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_FullGroupJoin__4_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Generate(TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_Generate__1.htm" />
+        <HelpTOCNode Title="GenerateByIndex(TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_GenerateByIndex__1.htm" />
+        <HelpTOCNode Id="1bad78ce-98cf-4d93-b1f8-843b8f3fcf5c" Title="GroupAdjacent Method " Url="html/Overload_MoreLinq_MoreEnumerable_GroupAdjacent.htm">
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__2.htm" />
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__2_1.htm" />
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey, TElement) Method (IEnumerable(TSource), Func(TSource, TKey), Func(TSource, TElement))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__3.htm" />
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey, TResult) Method (IEnumerable(TSource), Func(TSource, TKey), Func(TKey, IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__3_2.htm" />
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey, TElement) Method (IEnumerable(TSource), Func(TSource, TKey), Func(TSource, TElement), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__3_1.htm" />
+          <HelpTOCNode Title="GroupAdjacent(TSource, TKey, TResult) Method (IEnumerable(TSource), Func(TSource, TKey), Func(TKey, IEnumerable(TSource), TResult), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_GroupAdjacent__3_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="24e88345-3c49-4270-b81b-49255e834072" Title="Incremental Method " Url="html/Overload_MoreLinq_MoreEnumerable_Incremental.htm">
+          <HelpTOCNode Title="Incremental(TSource, TResult) Method (IEnumerable(TSource), Func(TSource, TSource, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Incremental__2.htm" />
+          <HelpTOCNode Title="Incremental(TSource, TResult) Method (IEnumerable(TSource), Func(TSource, TSource, Int32, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Incremental__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="24323a74-e254-4577-9d85-90d2c849e9d3" Title="Index Method " Url="html/Overload_MoreLinq_MoreEnumerable_Index.htm">
+          <HelpTOCNode Title="Index(TSource) Method (IEnumerable(TSource))" Url="html/M_MoreLinq_MoreEnumerable_Index__1.htm" />
+          <HelpTOCNode Title="Index(TSource) Method (IEnumerable(TSource), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Index__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Interleave(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Interleave__1.htm" />
+        <HelpTOCNode Id="19a07415-f2bc-4662-ae36-2cdc9f8e281b" Title="Lag Method " Url="html/Overload_MoreLinq_MoreEnumerable_Lag.htm">
+          <HelpTOCNode Title="Lag(TSource, TResult) Method (IEnumerable(TSource), Int32, Func(TSource, TSource, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Lag__2.htm" />
+          <HelpTOCNode Title="Lag(TSource, TResult) Method (IEnumerable(TSource), Int32, TSource, Func(TSource, TSource, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Lag__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8e5b6a58-a4c8-46ce-b95a-840e09a94e44" Title="Lead Method " Url="html/Overload_MoreLinq_MoreEnumerable_Lead.htm">
+          <HelpTOCNode Title="Lead(TSource, TResult) Method (IEnumerable(TSource), Int32, Func(TSource, TSource, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Lead__2.htm" />
+          <HelpTOCNode Title="Lead(TSource, TResult) Method (IEnumerable(TSource), Int32, TSource, Func(TSource, TSource, TResult))" Url="html/M_MoreLinq_MoreEnumerable_Lead__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a4c67700-b63a-479d-9e97-07b245e7d7d1" Title="MaxBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_MaxBy.htm">
+          <HelpTOCNode Title="MaxBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_MaxBy__2.htm" />
+          <HelpTOCNode Title="MaxBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_MaxBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="eef24e9a-1f7b-48ac-aa97-038cdfcbf3ec" Title="MinBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_MinBy.htm">
+          <HelpTOCNode Title="MinBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_MinBy__2.htm" />
+          <HelpTOCNode Title="MinBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_MinBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="NestedLoops Method " Url="html/M_MoreLinq_MoreEnumerable_NestedLoops.htm" />
+        <HelpTOCNode Id="31606db5-f0d1-4dcd-b013-33eb0da629d0" Title="OrderBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_OrderBy.htm">
+          <HelpTOCNode Title="OrderBy(T, TKey) Method (IEnumerable(T), Func(T, TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_OrderBy__2.htm" />
+          <HelpTOCNode Title="OrderBy(T, TKey) Method (IEnumerable(T), Func(T, TKey), IComparer(TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_OrderBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b1fb3ee0-9075-40b5-aee9-bd90473edb7f" Title="OrderedMerge Method " Url="html/Overload_MoreLinq_MoreEnumerable_OrderedMerge.htm">
+          <HelpTOCNode Title="OrderedMerge(T) Method (IEnumerable(T), IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__1.htm" />
+          <HelpTOCNode Title="OrderedMerge(T) Method (IEnumerable(T), IEnumerable(T), IComparer(T))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__1_1.htm" />
+          <HelpTOCNode Title="OrderedMerge(T, TKey) Method (IEnumerable(T), IEnumerable(T), Func(T, TKey))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__2.htm" />
+          <HelpTOCNode Title="OrderedMerge(T, TKey, TResult) Method (IEnumerable(T), IEnumerable(T), Func(T, TKey), Func(T, TResult), Func(T, TResult), Func(T, T, TResult))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__3.htm" />
+          <HelpTOCNode Title="OrderedMerge(T, TKey, TResult) Method (IEnumerable(T), IEnumerable(T), Func(T, TKey), Func(T, TResult), Func(T, TResult), Func(T, T, TResult), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__3_1.htm" />
+          <HelpTOCNode Title="OrderedMerge(TFirst, TSecond, TKey, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TKey), Func(TSecond, TKey), Func(TFirst, TResult), Func(TSecond, TResult), Func(TFirst, TSecond, TResult))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__4.htm" />
+          <HelpTOCNode Title="OrderedMerge(TFirst, TSecond, TKey, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TKey), Func(TSecond, TKey), Func(TFirst, TResult), Func(TSecond, TResult), Func(TFirst, TSecond, TResult), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_OrderedMerge__4_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0e4fe42b-3074-47ec-b55c-afa25e213446" Title="Pad Method " Url="html/Overload_MoreLinq_MoreEnumerable_Pad.htm">
+          <HelpTOCNode Title="Pad(TSource) Method (IEnumerable(TSource), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Pad__1.htm" />
+          <HelpTOCNode Title="Pad(TSource) Method (IEnumerable(TSource), Int32, Func(Int32, TSource))" Url="html/M_MoreLinq_MoreEnumerable_Pad__1_1.htm" />
+          <HelpTOCNode Title="Pad(TSource) Method (IEnumerable(TSource), Int32, TSource)" Url="html/M_MoreLinq_MoreEnumerable_Pad__1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Pairwise(TSource, TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
+        <HelpTOCNode Id="25fb67be-e1c1-44df-904f-a68f00790f6a" Title="PartialSort Method " Url="html/Overload_MoreLinq_MoreEnumerable_PartialSort.htm">
+          <HelpTOCNode Title="PartialSort(T) Method (IEnumerable(T), Int32)" Url="html/M_MoreLinq_MoreEnumerable_PartialSort__1.htm" />
+          <HelpTOCNode Title="PartialSort(T) Method (IEnumerable(T), Int32, OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_PartialSort__1_1.htm" />
+          <HelpTOCNode Title="PartialSort(T) Method (IEnumerable(T), Int32, IComparer(T))" Url="html/M_MoreLinq_MoreEnumerable_PartialSort__1_2.htm" />
+          <HelpTOCNode Title="PartialSort(T) Method (IEnumerable(T), Int32, IComparer(T), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_PartialSort__1_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cc699858-bf2a-4588-8345-d0aac323bb28" Title="PartialSortBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_PartialSortBy.htm">
+          <HelpTOCNode Title="PartialSortBy(TSource, TKey) Method (IEnumerable(TSource), Int32, Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_PartialSortBy__2.htm" />
+          <HelpTOCNode Title="PartialSortBy(TSource, TKey) Method (IEnumerable(TSource), Int32, Func(TSource, TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_PartialSortBy__2_1.htm" />
+          <HelpTOCNode Title="PartialSortBy(TSource, TKey) Method (IEnumerable(TSource), Int32, Func(TSource, TKey), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_PartialSortBy__2_2.htm" />
+          <HelpTOCNode Title="PartialSortBy(TSource, TKey) Method (IEnumerable(TSource), Int32, Func(TSource, TKey), IComparer(TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_PartialSortBy__2_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Permutations(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
+        <HelpTOCNode Title="Pipe(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
+        <HelpTOCNode Title="Prepend(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_Prepend__1.htm" />
+        <HelpTOCNode Title="PreScan(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_PreScan__1.htm" />
+        <HelpTOCNode Id="5fd3bd1a-e01f-40e3-9f3c-43a562ff8719" Title="Random Method " Url="html/Overload_MoreLinq_MoreEnumerable_Random.htm">
+          <HelpTOCNode Title="Random Method " Url="html/M_MoreLinq_MoreEnumerable_Random.htm" />
+          <HelpTOCNode Title="Random Method (Int32)" Url="html/M_MoreLinq_MoreEnumerable_Random_1.htm" />
+          <HelpTOCNode Title="Random Method (Random)" Url="html/M_MoreLinq_MoreEnumerable_Random_3.htm" />
+          <HelpTOCNode Title="Random Method (Int32, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Random_2.htm" />
+          <HelpTOCNode Title="Random Method (Random, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Random_4.htm" />
+          <HelpTOCNode Title="Random Method (Random, Int32, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Random_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="982cd634-b4e5-4051-b4da-7f23c4c36dbc" Title="RandomDouble Method " Url="html/Overload_MoreLinq_MoreEnumerable_RandomDouble.htm">
+          <HelpTOCNode Title="RandomDouble Method " Url="html/M_MoreLinq_MoreEnumerable_RandomDouble.htm" />
+          <HelpTOCNode Title="RandomDouble Method (Random)" Url="html/M_MoreLinq_MoreEnumerable_RandomDouble_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b1ab2ace-cd3a-4271-837c-cbf1550c5cdf" Title="RandomSubset Method " Url="html/Overload_MoreLinq_MoreEnumerable_RandomSubset.htm">
+          <HelpTOCNode Title="RandomSubset(T) Method (IEnumerable(T), Int32)" Url="html/M_MoreLinq_MoreEnumerable_RandomSubset__1.htm" />
+          <HelpTOCNode Title="RandomSubset(T) Method (IEnumerable(T), Int32, Random)" Url="html/M_MoreLinq_MoreEnumerable_RandomSubset__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="17406061-9149-49d4-99b3-92bfae17d345" Title="Rank Method " Url="html/Overload_MoreLinq_MoreEnumerable_Rank.htm">
+          <HelpTOCNode Title="Rank(TSource) Method (IEnumerable(TSource))" Url="html/M_MoreLinq_MoreEnumerable_Rank__1.htm" />
+          <HelpTOCNode Title="Rank(TSource) Method (IEnumerable(TSource), IComparer(TSource))" Url="html/M_MoreLinq_MoreEnumerable_Rank__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a31dc4cf-3fd2-46fb-b452-a7973bc5c96c" Title="RankBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_RankBy.htm">
+          <HelpTOCNode Title="RankBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey))" Url="html/M_MoreLinq_MoreEnumerable_RankBy__2.htm" />
+          <HelpTOCNode Title="RankBy(TSource, TKey) Method (IEnumerable(TSource), Func(TSource, TKey), IComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_RankBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f2e15d63-6874-4100-a874-2d621c4460af" Title="Repeat Method " Url="html/Overload_MoreLinq_MoreEnumerable_Repeat.htm">
+          <HelpTOCNode Title="Repeat(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1.htm" />
+          <HelpTOCNode Title="Repeat(T) Method (IEnumerable(T), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Repeat__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c027bfb1-8039-4649-86d8-0dbf4e300ce1" Title="RunLengthEncode Method " Url="html/Overload_MoreLinq_MoreEnumerable_RunLengthEncode.htm">
+          <HelpTOCNode Title="RunLengthEncode(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_RunLengthEncode__1.htm" />
+          <HelpTOCNode Title="RunLengthEncode(T) Method (IEnumerable(T), IEqualityComparer(T))" Url="html/M_MoreLinq_MoreEnumerable_RunLengthEncode__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="71933b6a-7557-4210-a12b-3fa60ac13f3f" Title="Scan Method " Url="html/Overload_MoreLinq_MoreEnumerable_Scan.htm">
+          <HelpTOCNode Title="Scan(TSource) Method (IEnumerable(TSource), Func(TSource, TSource, TSource))" Url="html/M_MoreLinq_MoreEnumerable_Scan__1.htm" />
+          <HelpTOCNode Title="Scan(TSource, TState) Method (IEnumerable(TSource), TState, Func(TState, TSource, TState))" Url="html/M_MoreLinq_MoreEnumerable_Scan__2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6025d5eb-416f-4185-8826-204b2cbbb4e3" Title="Segment Method " Url="html/Overload_MoreLinq_MoreEnumerable_Segment.htm">
+          <HelpTOCNode Title="Segment(T) Method (IEnumerable(T), Func(T, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_Segment__1.htm" />
+          <HelpTOCNode Title="Segment(T) Method (IEnumerable(T), Func(T, Int32, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_Segment__1_1.htm" />
+          <HelpTOCNode Title="Segment(T) Method (IEnumerable(T), Func(T, T, Int32, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_Segment__1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5da6e429-1f2e-471c-b9f8-58bcf0dfff45" Title="Sequence Method " Url="html/Overload_MoreLinq_MoreEnumerable_Sequence.htm">
+          <HelpTOCNode Title="Sequence Method (Int32, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Sequence.htm" />
+          <HelpTOCNode Title="Sequence Method (Int32, Int32, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Sequence_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SingleOrFallback(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+        <HelpTOCNode Title="SkipLast(T) Method " Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+        <HelpTOCNode Title="SkipUntil(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
+        <HelpTOCNode Title="Slice(T) Method " Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
+        <HelpTOCNode Id="04f79d1a-6205-4e2a-b297-4e511dffafec" Title="SortedMerge Method " Url="html/Overload_MoreLinq_MoreEnumerable_SortedMerge.htm">
+          <HelpTOCNode Title="SortedMerge(TSource) Method (IEnumerable(TSource), OrderByDirection, IEnumerable(TSource)[])" Url="html/M_MoreLinq_MoreEnumerable_SortedMerge__1_1.htm" />
+          <HelpTOCNode Title="SortedMerge(TSource) Method (IEnumerable(TSource), OrderByDirection, IComparer(TSource), IEnumerable(TSource)[])" Url="html/M_MoreLinq_MoreEnumerable_SortedMerge__1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f14b30c1-6409-47a6-9e7c-3c4dfb4c85ea" Title="Split Method " Url="html/Overload_MoreLinq_MoreEnumerable_Split.htm">
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), Func(TSource, Boolean))" Url="html/M_MoreLinq_MoreEnumerable_Split__1.htm" />
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), TSource)" Url="html/M_MoreLinq_MoreEnumerable_Split__1_2.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), Func(TSource, Boolean), Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2.htm" />
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), Func(TSource, Boolean), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Split__1_1.htm" />
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), TSource, IEqualityComparer(TSource))" Url="html/M_MoreLinq_MoreEnumerable_Split__1_3.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), TSource, Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2_4.htm" />
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), TSource, Int32)" Url="html/M_MoreLinq_MoreEnumerable_Split__1_5.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), Func(TSource, Boolean), Int32, Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2_1.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), TSource, IEqualityComparer(TSource), Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2_2.htm" />
+          <HelpTOCNode Title="Split(TSource) Method (IEnumerable(TSource), TSource, IEqualityComparer(TSource), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Split__1_4.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), TSource, Int32, Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2_5.htm" />
+          <HelpTOCNode Title="Split(TSource, TResult) Method (IEnumerable(TSource), TSource, IEqualityComparer(TSource), Int32, Func(IEnumerable(TSource), TResult))" Url="html/M_MoreLinq_MoreEnumerable_Split__2_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9906c4af-4134-446c-b52c-5ae6406bc6ea" Title="StartsWith Method " Url="html/Overload_MoreLinq_MoreEnumerable_StartsWith.htm">
+          <HelpTOCNode Title="StartsWith(T) Method (IEnumerable(T), IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_StartsWith__1.htm" />
+          <HelpTOCNode Title="StartsWith(T) Method (IEnumerable(T), IEnumerable(T), IEqualityComparer(T))" Url="html/M_MoreLinq_MoreEnumerable_StartsWith__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="46ae4bb1-a44d-43fa-a81f-6e7001a1df15" Title="Subsets Method " Url="html/Overload_MoreLinq_MoreEnumerable_Subsets.htm">
+          <HelpTOCNode Title="Subsets(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_Subsets__1.htm" />
+          <HelpTOCNode Title="Subsets(T) Method (IEnumerable(T), Int32)" Url="html/M_MoreLinq_MoreEnumerable_Subsets__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TagFirstLast(TSource, TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_TagFirstLast__2.htm" />
+        <HelpTOCNode Title="TakeEvery(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_TakeEvery__1.htm" />
+        <HelpTOCNode Title="TakeLast(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_TakeLast__1.htm" />
+        <HelpTOCNode Title="TakeUntil(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_TakeUntil__1.htm" />
+        <HelpTOCNode Id="42808619-0e0d-468a-9553-9d0053b42c2e" Title="ThenBy Method " Url="html/Overload_MoreLinq_MoreEnumerable_ThenBy.htm">
+          <HelpTOCNode Title="ThenBy(T, TKey) Method (IOrderedEnumerable(T), Func(T, TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_ThenBy__2.htm" />
+          <HelpTOCNode Title="ThenBy(T, TKey) Method (IOrderedEnumerable(T), Func(T, TKey), IComparer(TKey), OrderByDirection)" Url="html/M_MoreLinq_MoreEnumerable_ThenBy__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1657ce64-faee-4f07-ba7e-f4c37cdfdc85" Title="ToDataTable Method " Url="html/Overload_MoreLinq_MoreEnumerable_ToDataTable.htm">
+          <HelpTOCNode Title="ToDataTable(T) Method (IEnumerable(T))" Url="html/M_MoreLinq_MoreEnumerable_ToDataTable__1.htm" />
+          <HelpTOCNode Title="ToDataTable(T) Method (IEnumerable(T), Expression(Func(T, Object))[])" Url="html/M_MoreLinq_MoreEnumerable_ToDataTable__1_1.htm" />
+          <HelpTOCNode Title="ToDataTable(T, TTable) Method (IEnumerable(T), TTable)" Url="html/M_MoreLinq_MoreEnumerable_ToDataTable__2.htm" />
+          <HelpTOCNode Title="ToDataTable(T, TTable) Method (IEnumerable(T), TTable, Expression(Func(T, Object))[])" Url="html/M_MoreLinq_MoreEnumerable_ToDataTable__2_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="147f656c-d4d0-4fee-a8b3-93b6554ed4a8" Title="ToDelimitedString Method " Url="html/Overload_MoreLinq_MoreEnumerable_ToDelimitedString.htm">
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Boolean))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Byte))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_2.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Char))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_4.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Decimal))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_6.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Double))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_8.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int16))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_10.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int32))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_12.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int64))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_14.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(SByte))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_16.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Single))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_18.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(String))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_20.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt16))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_22.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt32))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_24.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt64))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_26.htm" />
+          <HelpTOCNode Title="ToDelimitedString(TSource) Method (IEnumerable(TSource))" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString__1.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Boolean), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_1.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Byte), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_3.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Char), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_5.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Decimal), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_7.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Double), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_9.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int16), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_11.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int32), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_13.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Int64), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_15.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(SByte), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_17.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(Single), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_19.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(String), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_21.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt16), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_23.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt32), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_25.htm" />
+          <HelpTOCNode Title="ToDelimitedString Method (IEnumerable(UInt64), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString_27.htm" />
+          <HelpTOCNode Title="ToDelimitedString(TSource) Method (IEnumerable(TSource), String)" Url="html/M_MoreLinq_MoreEnumerable_ToDelimitedString__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="836112d8-a803-4972-a729-363979ab7b31" Title="ToDictionary Method " Url="html/Overload_MoreLinq_MoreEnumerable_ToDictionary.htm">
+          <HelpTOCNode Title="ToDictionary(TKey, TValue) Method (IEnumerable(KeyValuePair(TKey, TValue)))" Url="html/M_MoreLinq_MoreEnumerable_ToDictionary__2.htm" />
+          <HelpTOCNode Title="ToDictionary(TKey, TValue) Method (IEnumerable(ValueTuple`2(TKey, TValue)))" Url="html/M_MoreLinq_MoreEnumerable_ToDictionary__2_2.htm" />
+          <HelpTOCNode Title="ToDictionary(TKey, TValue) Method (IEnumerable(KeyValuePair(TKey, TValue)), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_ToDictionary__2_1.htm" />
+          <HelpTOCNode Title="ToDictionary(TKey, TValue) Method (IEnumerable(ValueTuple`2(TKey, TValue)), IEqualityComparer(TKey))" Url="html/M_MoreLinq_MoreEnumerable_ToDictionary__2_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9f5bb862-f2c8-42ea-9447-8c221d8b656c" Title="ToHashSet Method " Url="html/Overload_MoreLinq_MoreEnumerable_ToHashSet.htm">
+          <HelpTOCNode Title="ToHashSet(TSource) Method (IEnumerable(TSource))" Url="html/M_MoreLinq_MoreEnumerable_ToHashSet__1.htm" />
+          <HelpTOCNode Title="ToHashSet(TSource) Method (IEnumerable(TSource), IEqualityComparer(TSource))" Url="html/M_MoreLinq_MoreEnumerable_ToHashSet__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="dca50b20-8687-4116-ad38-8f88633cc529" Title="Trace Method " Url="html/Overload_MoreLinq_MoreEnumerable_Trace.htm">
+          <HelpTOCNode Title="Trace(TSource) Method (IEnumerable(TSource))" Url="html/M_MoreLinq_MoreEnumerable_Trace__1.htm" />
+          <HelpTOCNode Title="Trace(TSource) Method (IEnumerable(TSource), Func(TSource, String))" Url="html/M_MoreLinq_MoreEnumerable_Trace__1_1.htm" />
+          <HelpTOCNode Title="Trace(TSource) Method (IEnumerable(TSource), String)" Url="html/M_MoreLinq_MoreEnumerable_Trace__1_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TraverseBreadthFirst(T) Method " Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
+        <HelpTOCNode Title="TraverseDepthFirst(T) Method " Url="html/M_MoreLinq_MoreEnumerable_TraverseDepthFirst__1.htm" />
+        <HelpTOCNode Title="Unfold(TState, T, TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_Unfold__3.htm" />
+        <HelpTOCNode Title="Windowed(TSource) Method " Url="html/M_MoreLinq_MoreEnumerable_Windowed__1.htm" />
+        <HelpTOCNode Title="ZipLongest(TFirst, TSecond, TResult) Method " Url="html/M_MoreLinq_MoreEnumerable_ZipLongest__3.htm" />
+        <HelpTOCNode Id="9f758911-aaf0-4e20-be8f-8c93de3958d6" Title="ZipShortest Method " Url="html/Overload_MoreLinq_MoreEnumerable_ZipShortest.htm">
+          <HelpTOCNode Title="ZipShortest(TFirst, TSecond, TResult) Method (IEnumerable(TFirst), IEnumerable(TSecond), Func(TFirst, TSecond, TResult))" Url="html/M_MoreLinq_MoreEnumerable_ZipShortest__3.htm" />
+          <HelpTOCNode Title="ZipShortest(T1, T2, T3, TResult) Method (IEnumerable(T1), IEnumerable(T2), IEnumerable(T3), Func(T1, T2, T3, TResult))" Url="html/M_MoreLinq_MoreEnumerable_ZipShortest__4.htm" />
+          <HelpTOCNode Title="ZipShortest(T1, T2, T3, T4, TResult) Method (IEnumerable(T1), IEnumerable(T2), IEnumerable(T3), IEnumerable(T4), Func(T1, T2, T3, T4, TResult))" Url="html/M_MoreLinq_MoreEnumerable_ZipShortest__5.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="OrderByDirection Enumeration" Url="html/T_MoreLinq_OrderByDirection.htm" />
+    <HelpTOCNode Id="89a4358a-8bcd-4832-ba30-4df0b8cdf57d" Title="SequenceException Class" Url="html/T_MoreLinq_SequenceException.htm">
+      <HelpTOCNode Id="b122486e-8f95-40ea-823c-aee88bdb66e6" Title="SequenceException Constructor " Url="html/Overload_MoreLinq_SequenceException__ctor.htm">
+        <HelpTOCNode Title="SequenceException Constructor " Url="html/M_MoreLinq_SequenceException__ctor.htm" />
+        <HelpTOCNode Title="SequenceException Constructor (String)" Url="html/M_MoreLinq_SequenceException__ctor_2.htm" />
+        <HelpTOCNode Title="SequenceException Constructor (SerializationInfo, StreamingContext)" Url="html/M_MoreLinq_SequenceException__ctor_1.htm" />
+        <HelpTOCNode Title="SequenceException Constructor (String, Exception)" Url="html/M_MoreLinq_SequenceException__ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SequenceException Properties" Url="html/Properties_T_MoreLinq_SequenceException.htm" />
+      <HelpTOCNode Title="SequenceException Methods" Url="html/Methods_T_MoreLinq_SequenceException.htm" />
+      <HelpTOCNode Title="SequenceException Events" Url="html/Events_T_MoreLinq_SequenceException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

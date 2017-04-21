@@ -105,6 +105,7 @@
   <HelpKINode Title="MoreEnumerable.Pairwise&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
   <HelpKINode Title="MoreEnumerable.PartialSort method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSort.htm" />
   <HelpKINode Title="MoreEnumerable.PartialSortBy method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSortBy.htm" />
+  <HelpKINode Title="MoreEnumerable.Partition method" Url="html/Overload_MoreLinq_MoreEnumerable_Partition.htm" />
   <HelpKINode Title="MoreEnumerable.Permutations(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
   <HelpKINode Title="MoreEnumerable.Permutations&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
   <HelpKINode Title="MoreEnumerable.Pipe(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
@@ -148,6 +149,7 @@
   <HelpKINode Title="MoreEnumerable.ToDelimitedString method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDelimitedString.htm" />
   <HelpKINode Title="MoreEnumerable.ToDictionary method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDictionary.htm" />
   <HelpKINode Title="MoreEnumerable.ToHashSet method" Url="html/Overload_MoreLinq_MoreEnumerable_ToHashSet.htm" />
+  <HelpKINode Title="MoreEnumerable.ToLookup method" Url="html/Overload_MoreLinq_MoreEnumerable_ToLookup.htm" />
   <HelpKINode Title="MoreEnumerable.Trace method" Url="html/Overload_MoreLinq_MoreEnumerable_Trace.htm" />
   <HelpKINode Title="MoreEnumerable.TraverseBreadthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
   <HelpKINode Title="MoreEnumerable.TraverseBreadthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
@@ -173,6 +175,7 @@
   <HelpKINode Title="Pairwise&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
   <HelpKINode Title="PartialSort method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSort.htm" />
   <HelpKINode Title="PartialSortBy method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSortBy.htm" />
+  <HelpKINode Title="Partition method" Url="html/Overload_MoreLinq_MoreEnumerable_Partition.htm" />
   <HelpKINode Title="Permutations(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
   <HelpKINode Title="Permutations&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
   <HelpKINode Title="Pipe(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
@@ -225,6 +228,7 @@
   <HelpKINode Title="ToDelimitedString method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDelimitedString.htm" />
   <HelpKINode Title="ToDictionary method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDictionary.htm" />
   <HelpKINode Title="ToHashSet method" Url="html/Overload_MoreLinq_MoreEnumerable_ToHashSet.htm" />
+  <HelpKINode Title="ToLookup method" Url="html/Overload_MoreLinq_MoreEnumerable_ToLookup.htm" />
   <HelpKINode Title="Trace method" Url="html/Overload_MoreLinq_MoreEnumerable_Trace.htm" />
   <HelpKINode Title="TraverseBreadthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
   <HelpKINode Title="TraverseBreadthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />

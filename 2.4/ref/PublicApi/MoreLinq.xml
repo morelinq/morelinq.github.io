@@ -1410,6 +1410,205 @@
       <returns>A sequence containing at most top <paramref name="count" />
             elements from source, in the specified order of their keys.</returns>
     </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``2(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{System.Boolean,``0}},System.Func{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},``1})">
+      <summary>
+            Partitions a grouping by Boolean keys into a projection of true
+            elements and false elements, respectively.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="resultSelector">
+            Function that projects the result from sequences of true elements
+            and false elements, respectively, passed as arguments.
+            </param>
+      <typeparam name="T">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``2(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{System.Nullable{System.Boolean},``0}},System.Func{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},``1})">
+      <summary>
+            Partitions a grouping by nullable Boolean keys into a projection of
+            true elements, false elements and null elements, respectively.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="resultSelector">
+            Function that projects the result from sequences of true elements,
+            false elements and null elements, respectively, passed as
+            arguments.
+            </param>
+      <typeparam name="T">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,System.Collections.Generic.IEqualityComparer{``0},System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from group elements
+            matching a key and those groups that do not. An additional parameter
+            specifies how to compare keys for equality.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key">The key to partition on.</param>
+      <param name="comparer">The comparer for keys.</param>
+      <param name="resultSelector">
+            Function that projects the result from elements of the group
+            matching <paramref name="key" /> and those groups that do not (in
+            the order in which they appear in <paramref name="source" />),
+            passed as arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from group elements
+            matching a key and those groups that do not.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key">The key to partition.</param>
+      <param name="resultSelector">
+            Function that projects the result from sequences of elements
+            matching <paramref name="key" /> and those groups that do not (in
+            the order in which they appear in <paramref name="source" />),
+            passed as arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from elements of
+            groups matching a set of two keys and those groups that do not.
+            An additional parameter specifies how to compare keys for equality.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key1">The first key to partition on.</param>
+      <param name="key2">The second key to partition on.</param>
+      <param name="comparer">The comparer for keys.</param>
+      <param name="resultSelector">
+            Function that projects the result from elements of the group
+            matching <paramref name="key1" />, elements of the group matching
+            <paramref name="key2" /> and those groups that do not (in the order
+            in which they appear in <paramref name="source" />), passed as
+            arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,``0,System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from elements of
+            groups matching a set of two keys and those groups that do not.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key1">The first key to partition on.</param>
+      <param name="key2">The second key to partition on.</param>
+      <param name="resultSelector">
+            Function that projects the result from elements of the group
+            matching <paramref name="key1" />, elements of the group matching
+            <paramref name="key2" /> and those groups that do not (in the order
+            in which they appear in <paramref name="source" />), passed as
+            arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,``0,``0,System.Collections.Generic.IEqualityComparer{``0},System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from elements groups
+            matching a set of three keys and those groups that do not. An
+            additional parameter specifies how to compare keys for equality.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key1">The first key to partition on.</param>
+      <param name="key2">The second key to partition on.</param>
+      <param name="key3">The third key to partition on.</param>
+      <param name="comparer">The comparer for keys.</param>
+      <param name="resultSelector">
+            Function that projects the result from elements of groups
+            matching <paramref name="key1" />, <paramref name="key2" /> and
+            <paramref name="key3" /> and those groups that do not (in
+            the order in which they appear in <paramref name="source" />),
+            passed as arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``3(System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``0,``0,``0,System.Func{System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{``1},System.Collections.Generic.IEnumerable{System.Linq.IGrouping{``0,``1}},``2})">
+      <summary>
+            Partitions a grouping and projects a result from elements groups
+            matching a set of three keys and those groups that do not.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="key1">The first key to partition on.</param>
+      <param name="key2">The second key to partition on.</param>
+      <param name="key3">The third key to partition on.</param>
+      <param name="resultSelector">
+            Function that projects the result from elements of groups
+            matching <paramref name="key1" />, <paramref name="key2" /> and
+            <paramref name="key3" /> and those groups that do not (in the order
+            in which they appear in <paramref name="source" />), passed as
+            arguments.
+            </param>
+      <typeparam name="TKey">Type of keys in source groupings.</typeparam>
+      <typeparam name="TElement">Type of elements in source groupings.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})">
+      <summary>
+            Partitions or splits a sequence in two using a predicate.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="predicate">The predicate function.</param>
+      <typeparam name="T">Type of source elements.</typeparam>
+      <returns>
+            A tuple of elements staisfying the predicate and those that do not,
+            respectively.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Partition``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Func{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},``1})">
+      <summary>
+            Partitions or splits a sequence in two using a predicate and then
+            projects a result from the two.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="predicate">The predicate function.</param>
+      <param name="resultSelector">
+            Function that projects the result from sequences of elements that
+            satisfy the predicate and those that do not, respectively, passed as
+            arguments.
+            </param>
+      <typeparam name="T">Type of source elements.</typeparam>
+      <typeparam name="TResult">Type of the result.</typeparam>
+      <returns>
+            The return value from <paramref name="resultSelector" />.
+            </returns>
+    </member>
     <member name="M:MoreLinq.MoreEnumerable.Permutations``1(System.Collections.Generic.IEnumerable{``0})">
       <summary>
             Generates a sequence of lists that represent the permutations of the original sequence.
@@ -2679,6 +2878,133 @@
       <returns>A hash set of the items in the sequence, using the default equality comparer.</returns>
       <exception cref="T:System.ArgumentNullException">
         <paramref name="source" /> is null</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+      <summary>
+            Creates a <see cref="T:MoreLinq.Lookup`2" /> from a sequence of
+            <see cref="T:System.Collections.Generic.KeyValuePair`2" /> elements.
+            </summary>
+      <param name="source">The source sequence of key-value pairs.</param>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TValue">The type of the value.</typeparam>
+      <returns>
+            A <see cref="T:MoreLinq.Lookup`2" /> containing the values
+            mapped to their keys.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+            Creates a <see cref="T:MoreLinq.Lookup`2" /> from a sequence of
+            <see cref="T:System.Collections.Generic.KeyValuePair`2" /> elements. An additional
+            parameter specifies a comparer for keys.
+            </summary>
+      <param name="source">The source sequence of key-value pairs.</param>
+      <param name="comparer">The comparer for keys.</param>
+      <typeparam name="TKey">The type of the key.</typeparam>
+      <typeparam name="TValue">The type of the value.</typeparam>
+      <returns>
+            A <see cref="T:MoreLinq.Lookup`2" /> containing the values
+            mapped to their keys.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="TKey">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>TKey</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <typeparam name="TValue">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>TValue</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}})</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="comparer">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>comparer</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="TKey">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>TKey</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <typeparam name="TValue">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>TValue</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.ValueTuple{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.Trace``1(System.Collections.Generic.IEnumerable{``0})">
       <summary>

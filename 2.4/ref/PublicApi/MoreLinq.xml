@@ -615,6 +615,142 @@
             An <see cref="T:System.Collections.Generic.IEnumerable`1" /> with missing values replaced.
             </returns>
     </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            9 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 9 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            10 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 10 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            11 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 11 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            12 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 12 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            13 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 13 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            14 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 14 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            15 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 15 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            16 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 16 elements</exception>
+    </member>
     <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
       <summary>
             Returns the result of applying a function to a sequence of
@@ -682,6 +818,74 @@
         <paramref name="folder" /> is null</exception>
       <exception cref="T:System.InvalidOperationException">
         <paramref name="source" /> does not contain exactly 4 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            5 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 5 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            6 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 6 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            7 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 7 elements</exception>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Fold``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``0,``0,``0,``0,``0,``0,``0,``1})">
+      <summary>
+            Returns the result of applying a function to a sequence of
+            8 elements.
+            </summary>
+      <param name="source">The sequence of items to fold.</param>
+      <param name="folder">Function to apply to the elements in the sequence.</param>
+      <typeparam name="T">Type of element in the source sequence</typeparam>
+      <typeparam name="TResult">Type of the result</typeparam>
+      <returns>The folded value returned by <paramref name="folder" />.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="source" /> is null</exception>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="folder" /> is null</exception>
+      <exception cref="T:System.InvalidOperationException">
+        <paramref name="source" /> does not contain exactly 8 elements</exception>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
       <summary>
@@ -2881,20 +3085,20 @@
     </member>
     <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
       <summary>
-            Creates a <see cref="T:MoreLinq.Lookup`2" /> from a sequence of
+            Creates a <see cref="T:System.Linq.ILookup`2" /> from a sequence of
             <see cref="T:System.Collections.Generic.KeyValuePair`2" /> elements.
             </summary>
       <param name="source">The source sequence of key-value pairs.</param>
       <typeparam name="TKey">The type of the key.</typeparam>
       <typeparam name="TValue">The type of the value.</typeparam>
       <returns>
-            A <see cref="T:MoreLinq.Lookup`2" /> containing the values
+            A <see cref="T:System.Linq.ILookup`2" /> containing the values
             mapped to their keys.
             </returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.ToLookup``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
       <summary>
-            Creates a <see cref="T:MoreLinq.Lookup`2" /> from a sequence of
+            Creates a <see cref="T:System.Linq.ILookup`2" /> from a sequence of
             <see cref="T:System.Collections.Generic.KeyValuePair`2" /> elements. An additional
             parameter specifies a comparer for keys.
             </summary>
@@ -2903,7 +3107,7 @@
       <typeparam name="TKey">The type of the key.</typeparam>
       <typeparam name="TValue">The type of the value.</typeparam>
       <returns>
-            A <see cref="T:MoreLinq.Lookup`2" /> containing the values
+            A <see cref="T:System.Linq.ILookup`2" /> containing the values
             mapped to their keys.
             </returns>
     </member>

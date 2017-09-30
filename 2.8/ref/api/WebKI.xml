@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Acquire(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Acquire__1.htm" />
+  <HelpKINode Title="Acquire&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Acquire__1.htm" />
+  <HelpKINode Title="AggregateRight method" Url="html/Overload_MoreLinq_MoreEnumerable_AggregateRight.htm" />
+  <HelpKINode Title="Ascending enumeration member" Url="html/T_MoreLinq_OrderByDirection.htm" />
+  <HelpKINode Title="Assert method" Url="html/Overload_MoreLinq_MoreEnumerable_Assert.htm" />
+  <HelpKINode Title="AssertCount method" Url="html/Overload_MoreLinq_MoreEnumerable_AssertCount.htm" />
+  <HelpKINode Title="AtLeast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_AtLeast__1.htm" />
+  <HelpKINode Title="AtLeast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_AtLeast__1.htm" />
+  <HelpKINode Title="AtMost(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
+  <HelpKINode Title="AtMost&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
+  <HelpKINode Title="Batch method" Url="html/Overload_MoreLinq_MoreEnumerable_Batch.htm" />
+  <HelpKINode Title="Cartesian(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="Cartesian&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="Concat method" Url="html/Overload_MoreLinq_MoreEnumerable_Concat.htm" />
+  <HelpKINode Title="Consume(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Consume__1.htm" />
+  <HelpKINode Title="Consume&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Consume__1.htm" />
+  <HelpKINode Title="CountBetween(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
+  <HelpKINode Title="CountBetween&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
+  <HelpKINode Title="CountBy method" Url="html/Overload_MoreLinq_MoreEnumerable_CountBy.htm" />
+  <HelpKINode Title="Descending enumeration member" Url="html/T_MoreLinq_OrderByDirection.htm" />
+  <HelpKINode Title="DistinctBy method" Url="html/Overload_MoreLinq_MoreEnumerable_DistinctBy.htm" />
+  <HelpKINode Title="EndsWith method" Url="html/Overload_MoreLinq_MoreEnumerable_EndsWith.htm" />
+  <HelpKINode Title="EquiZip method" Url="html/Overload_MoreLinq_MoreEnumerable_EquiZip.htm" />
+  <HelpKINode Title="Evaluate(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Evaluate__1.htm" />
+  <HelpKINode Title="Evaluate&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Evaluate__1.htm" />
+  <HelpKINode Title="Exactly(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Exactly__1.htm" />
+  <HelpKINode Title="Exactly&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Exactly__1.htm" />
+  <HelpKINode Title="ExceptBy method" Url="html/Overload_MoreLinq_MoreEnumerable_ExceptBy.htm" />
+  <HelpKINode Title="Exclude(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Exclude__1.htm" />
+  <HelpKINode Title="Exclude&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Exclude__1.htm" />
+  <HelpKINode Title="FallbackIfEmpty method" Url="html/Overload_MoreLinq_MoreEnumerable_FallbackIfEmpty.htm" />
+  <HelpKINode Title="FillBackward method" Url="html/Overload_MoreLinq_MoreEnumerable_FillBackward.htm" />
+  <HelpKINode Title="FillForward method" Url="html/Overload_MoreLinq_MoreEnumerable_FillForward.htm" />
+  <HelpKINode Title="Fold method" Url="html/Overload_MoreLinq_MoreEnumerable_Fold.htm" />
+  <HelpKINode Title="ForEach method" Url="html/Overload_MoreLinq_MoreEnumerable_ForEach.htm" />
+  <HelpKINode Title="From method" Url="html/Overload_MoreLinq_MoreEnumerable_From.htm" />
+  <HelpKINode Title="FullGroupJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_FullGroupJoin.htm" />
+  <HelpKINode Title="FullJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_FullJoin.htm" />
+  <HelpKINode Title="Generate(Of TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Generate__1.htm" />
+  <HelpKINode Title="Generate&lt;TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Generate__1.htm" />
+  <HelpKINode Title="GenerateByIndex(Of TResult) method" Url="html/M_MoreLinq_MoreEnumerable_GenerateByIndex__1.htm" />
+  <HelpKINode Title="GenerateByIndex&lt;TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_GenerateByIndex__1.htm" />
+  <HelpKINode Title="GroupAdjacent method" Url="html/Overload_MoreLinq_MoreEnumerable_GroupAdjacent.htm" />
+  <HelpKINode Title="Incremental method" Url="html/Overload_MoreLinq_MoreEnumerable_Incremental.htm" />
+  <HelpKINode Title="Index method" Url="html/Overload_MoreLinq_MoreEnumerable_Index.htm" />
+  <HelpKINode Title="Interleave(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Interleave__1.htm" />
+  <HelpKINode Title="Interleave&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Interleave__1.htm" />
+  <HelpKINode Title="Lag method" Url="html/Overload_MoreLinq_MoreEnumerable_Lag.htm" />
+  <HelpKINode Title="Lead method" Url="html/Overload_MoreLinq_MoreEnumerable_Lead.htm" />
+  <HelpKINode Title="LeftJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_LeftJoin.htm" />
+  <HelpKINode Title="MaxBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MaxBy.htm" />
+  <HelpKINode Title="MinBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MinBy.htm" />
+  <HelpKINode Title="MoreEnumerable class">
+    <HelpKINode Title="MoreEnumerable Class" Url="html/T_MoreLinq_MoreEnumerable.htm" />
+    <HelpKINode Title="about MoreEnumerable class" Url="html/T_MoreLinq_MoreEnumerable.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_MoreLinq_MoreEnumerable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MoreEnumerable.Acquire(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Acquire__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Acquire&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Acquire__1.htm" />
+  <HelpKINode Title="MoreEnumerable.AggregateRight method" Url="html/Overload_MoreLinq_MoreEnumerable_AggregateRight.htm" />
+  <HelpKINode Title="MoreEnumerable.Assert method" Url="html/Overload_MoreLinq_MoreEnumerable_Assert.htm" />
+  <HelpKINode Title="MoreEnumerable.AssertCount method" Url="html/Overload_MoreLinq_MoreEnumerable_AssertCount.htm" />
+  <HelpKINode Title="MoreEnumerable.AtLeast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_AtLeast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.AtLeast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_AtLeast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.AtMost(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
+  <HelpKINode Title="MoreEnumerable.AtMost&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Batch method" Url="html/Overload_MoreLinq_MoreEnumerable_Batch.htm" />
+  <HelpKINode Title="MoreEnumerable.Cartesian(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="MoreEnumerable.Cartesian&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="MoreEnumerable.Concat method" Url="html/Overload_MoreLinq_MoreEnumerable_Concat.htm" />
+  <HelpKINode Title="MoreEnumerable.Consume(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Consume__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Consume&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Consume__1.htm" />
+  <HelpKINode Title="MoreEnumerable.CountBetween(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
+  <HelpKINode Title="MoreEnumerable.CountBetween&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
+  <HelpKINode Title="MoreEnumerable.CountBy method" Url="html/Overload_MoreLinq_MoreEnumerable_CountBy.htm" />
+  <HelpKINode Title="MoreEnumerable.DistinctBy method" Url="html/Overload_MoreLinq_MoreEnumerable_DistinctBy.htm" />
+  <HelpKINode Title="MoreEnumerable.EndsWith method" Url="html/Overload_MoreLinq_MoreEnumerable_EndsWith.htm" />
+  <HelpKINode Title="MoreEnumerable.EquiZip method" Url="html/Overload_MoreLinq_MoreEnumerable_EquiZip.htm" />
+  <HelpKINode Title="MoreEnumerable.Evaluate(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Evaluate__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Evaluate&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Evaluate__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Exactly(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Exactly__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Exactly&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Exactly__1.htm" />
+  <HelpKINode Title="MoreEnumerable.ExceptBy method" Url="html/Overload_MoreLinq_MoreEnumerable_ExceptBy.htm" />
+  <HelpKINode Title="MoreEnumerable.Exclude(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Exclude__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Exclude&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Exclude__1.htm" />
+  <HelpKINode Title="MoreEnumerable.FallbackIfEmpty method" Url="html/Overload_MoreLinq_MoreEnumerable_FallbackIfEmpty.htm" />
+  <HelpKINode Title="MoreEnumerable.FillBackward method" Url="html/Overload_MoreLinq_MoreEnumerable_FillBackward.htm" />
+  <HelpKINode Title="MoreEnumerable.FillForward method" Url="html/Overload_MoreLinq_MoreEnumerable_FillForward.htm" />
+  <HelpKINode Title="MoreEnumerable.Fold method" Url="html/Overload_MoreLinq_MoreEnumerable_Fold.htm" />
+  <HelpKINode Title="MoreEnumerable.ForEach method" Url="html/Overload_MoreLinq_MoreEnumerable_ForEach.htm" />
+  <HelpKINode Title="MoreEnumerable.From method" Url="html/Overload_MoreLinq_MoreEnumerable_From.htm" />
+  <HelpKINode Title="MoreEnumerable.FullGroupJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_FullGroupJoin.htm" />
+  <HelpKINode Title="MoreEnumerable.FullJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_FullJoin.htm" />
+  <HelpKINode Title="MoreEnumerable.Generate(Of TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Generate__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Generate&lt;TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Generate__1.htm" />
+  <HelpKINode Title="MoreEnumerable.GenerateByIndex(Of TResult) method" Url="html/M_MoreLinq_MoreEnumerable_GenerateByIndex__1.htm" />
+  <HelpKINode Title="MoreEnumerable.GenerateByIndex&lt;TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_GenerateByIndex__1.htm" />
+  <HelpKINode Title="MoreEnumerable.GroupAdjacent method" Url="html/Overload_MoreLinq_MoreEnumerable_GroupAdjacent.htm" />
+  <HelpKINode Title="MoreEnumerable.Incremental method" Url="html/Overload_MoreLinq_MoreEnumerable_Incremental.htm" />
+  <HelpKINode Title="MoreEnumerable.Index method" Url="html/Overload_MoreLinq_MoreEnumerable_Index.htm" />
+  <HelpKINode Title="MoreEnumerable.Interleave(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Interleave__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Interleave&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Interleave__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Lag method" Url="html/Overload_MoreLinq_MoreEnumerable_Lag.htm" />
+  <HelpKINode Title="MoreEnumerable.Lead method" Url="html/Overload_MoreLinq_MoreEnumerable_Lead.htm" />
+  <HelpKINode Title="MoreEnumerable.LeftJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_LeftJoin.htm" />
+  <HelpKINode Title="MoreEnumerable.MaxBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MaxBy.htm" />
+  <HelpKINode Title="MoreEnumerable.MinBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MinBy.htm" />
+  <HelpKINode Title="MoreEnumerable.Move(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Move&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
+  <HelpKINode Title="MoreEnumerable.NestedLoops method" Url="html/M_MoreLinq_MoreEnumerable_NestedLoops.htm" />
+  <HelpKINode Title="MoreEnumerable.OrderBy method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderBy.htm" />
+  <HelpKINode Title="MoreEnumerable.OrderedMerge method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderedMerge.htm" />
+  <HelpKINode Title="MoreEnumerable.Pad method" Url="html/Overload_MoreLinq_MoreEnumerable_Pad.htm" />
+  <HelpKINode Title="MoreEnumerable.PadStart method" Url="html/Overload_MoreLinq_MoreEnumerable_PadStart.htm" />
+  <HelpKINode Title="MoreEnumerable.Pairwise(Of TSource, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
+  <HelpKINode Title="MoreEnumerable.Pairwise&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
+  <HelpKINode Title="MoreEnumerable.PartialSort method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSort.htm" />
+  <HelpKINode Title="MoreEnumerable.PartialSortBy method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSortBy.htm" />
+  <HelpKINode Title="MoreEnumerable.Partition method" Url="html/Overload_MoreLinq_MoreEnumerable_Partition.htm" />
+  <HelpKINode Title="MoreEnumerable.Permutations(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Permutations&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Pipe(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Pipe&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Prepend(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Prepend__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Prepend&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Prepend__1.htm" />
+  <HelpKINode Title="MoreEnumerable.PreScan(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_PreScan__1.htm" />
+  <HelpKINode Title="MoreEnumerable.PreScan&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_PreScan__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Random method" Url="html/Overload_MoreLinq_MoreEnumerable_Random.htm" />
+  <HelpKINode Title="MoreEnumerable.RandomDouble method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomDouble.htm" />
+  <HelpKINode Title="MoreEnumerable.RandomSubset method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomSubset.htm" />
+  <HelpKINode Title="MoreEnumerable.Rank method" Url="html/Overload_MoreLinq_MoreEnumerable_Rank.htm" />
+  <HelpKINode Title="MoreEnumerable.RankBy method" Url="html/Overload_MoreLinq_MoreEnumerable_RankBy.htm" />
+  <HelpKINode Title="MoreEnumerable.Repeat method" Url="html/Overload_MoreLinq_MoreEnumerable_Repeat.htm" />
+  <HelpKINode Title="MoreEnumerable.RightJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_RightJoin.htm" />
+  <HelpKINode Title="MoreEnumerable.RunLengthEncode method" Url="html/Overload_MoreLinq_MoreEnumerable_RunLengthEncode.htm" />
+  <HelpKINode Title="MoreEnumerable.Scan method" Url="html/Overload_MoreLinq_MoreEnumerable_Scan.htm" />
+  <HelpKINode Title="MoreEnumerable.ScanRight method" Url="html/Overload_MoreLinq_MoreEnumerable_ScanRight.htm" />
+  <HelpKINode Title="MoreEnumerable.Segment method" Url="html/Overload_MoreLinq_MoreEnumerable_Segment.htm" />
+  <HelpKINode Title="MoreEnumerable.Sequence method" Url="html/Overload_MoreLinq_MoreEnumerable_Sequence.htm" />
+  <HelpKINode Title="MoreEnumerable.SingleOrFallback(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SingleOrFallback&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipLast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipLast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SkipUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Slice(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Slice&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
+  <HelpKINode Title="MoreEnumerable.SortedMerge method" Url="html/Overload_MoreLinq_MoreEnumerable_SortedMerge.htm" />
+  <HelpKINode Title="MoreEnumerable.Split method" Url="html/Overload_MoreLinq_MoreEnumerable_Split.htm" />
+  <HelpKINode Title="MoreEnumerable.StartsWith method" Url="html/Overload_MoreLinq_MoreEnumerable_StartsWith.htm" />
+  <HelpKINode Title="MoreEnumerable.Subsets method" Url="html/Overload_MoreLinq_MoreEnumerable_Subsets.htm" />
+  <HelpKINode Title="MoreEnumerable.TagFirstLast(Of TSource, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_TagFirstLast__2.htm" />
+  <HelpKINode Title="MoreEnumerable.TagFirstLast&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TagFirstLast__2.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeEvery(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeEvery__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeEvery&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeEvery__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeLast(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeLast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeLast&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeLast__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeUntil__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TakeUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeUntil__1.htm" />
+  <HelpKINode Title="MoreEnumerable.ThenBy method" Url="html/Overload_MoreLinq_MoreEnumerable_ThenBy.htm" />
+  <HelpKINode Title="MoreEnumerable.ToArrayByIndex method" Url="html/Overload_MoreLinq_MoreEnumerable_ToArrayByIndex.htm" />
+  <HelpKINode Title="MoreEnumerable.ToDataTable method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDataTable.htm" />
+  <HelpKINode Title="MoreEnumerable.ToDelimitedString method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDelimitedString.htm" />
+  <HelpKINode Title="MoreEnumerable.ToDictionary method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDictionary.htm" />
+  <HelpKINode Title="MoreEnumerable.ToHashSet method" Url="html/Overload_MoreLinq_MoreEnumerable_ToHashSet.htm" />
+  <HelpKINode Title="MoreEnumerable.ToLookup method" Url="html/Overload_MoreLinq_MoreEnumerable_ToLookup.htm" />
+  <HelpKINode Title="MoreEnumerable.Trace method" Url="html/Overload_MoreLinq_MoreEnumerable_Trace.htm" />
+  <HelpKINode Title="MoreEnumerable.TraverseBreadthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TraverseBreadthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TraverseDepthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseDepthFirst__1.htm" />
+  <HelpKINode Title="MoreEnumerable.TraverseDepthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseDepthFirst__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Unfold(Of TState, T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Unfold__3.htm" />
+  <HelpKINode Title="MoreEnumerable.Unfold&lt;TState, T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Unfold__3.htm" />
+  <HelpKINode Title="MoreEnumerable.Windowed(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Windowed__1.htm" />
+  <HelpKINode Title="MoreEnumerable.Windowed&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Windowed__1.htm" />
+  <HelpKINode Title="MoreEnumerable.ZipLongest(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_ZipLongest__3.htm" />
+  <HelpKINode Title="MoreEnumerable.ZipLongest&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_ZipLongest__3.htm" />
+  <HelpKINode Title="MoreEnumerable.ZipShortest method" Url="html/Overload_MoreLinq_MoreEnumerable_ZipShortest.htm" />
+  <HelpKINode Title="MoreLinq namespace" Url="html/N_MoreLinq.htm" />
+  <HelpKINode Title="MoreLinq.MoreEnumerable class" Url="html/T_MoreLinq_MoreEnumerable.htm" />
+  <HelpKINode Title="MoreLinq.OrderByDirection enumeration" Url="html/T_MoreLinq_OrderByDirection.htm" />
+  <HelpKINode Title="MoreLinq.SequenceException class" Url="html/T_MoreLinq_SequenceException.htm" />
+  <HelpKINode Title="Move(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
+  <HelpKINode Title="Move&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
+  <HelpKINode Title="NestedLoops method" Url="html/M_MoreLinq_MoreEnumerable_NestedLoops.htm" />
+  <HelpKINode Title="OrderBy method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderBy.htm" />
+  <HelpKINode Title="OrderByDirection enumeration" Url="html/T_MoreLinq_OrderByDirection.htm" />
+  <HelpKINode Title="OrderedMerge method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderedMerge.htm" />
+  <HelpKINode Title="Pad method" Url="html/Overload_MoreLinq_MoreEnumerable_Pad.htm" />
+  <HelpKINode Title="PadStart method" Url="html/Overload_MoreLinq_MoreEnumerable_PadStart.htm" />
+  <HelpKINode Title="Pairwise(Of TSource, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
+  <HelpKINode Title="Pairwise&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pairwise__2.htm" />
+  <HelpKINode Title="PartialSort method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSort.htm" />
+  <HelpKINode Title="PartialSortBy method" Url="html/Overload_MoreLinq_MoreEnumerable_PartialSortBy.htm" />
+  <HelpKINode Title="Partition method" Url="html/Overload_MoreLinq_MoreEnumerable_Partition.htm" />
+  <HelpKINode Title="Permutations(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
+  <HelpKINode Title="Permutations&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Permutations__1.htm" />
+  <HelpKINode Title="Pipe(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
+  <HelpKINode Title="Pipe&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Pipe__1.htm" />
+  <HelpKINode Title="Prepend(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Prepend__1.htm" />
+  <HelpKINode Title="Prepend&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Prepend__1.htm" />
+  <HelpKINode Title="PreScan(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_PreScan__1.htm" />
+  <HelpKINode Title="PreScan&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_PreScan__1.htm" />
+  <HelpKINode Title="Random method" Url="html/Overload_MoreLinq_MoreEnumerable_Random.htm" />
+  <HelpKINode Title="RandomDouble method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomDouble.htm" />
+  <HelpKINode Title="RandomSubset method" Url="html/Overload_MoreLinq_MoreEnumerable_RandomSubset.htm" />
+  <HelpKINode Title="Rank method" Url="html/Overload_MoreLinq_MoreEnumerable_Rank.htm" />
+  <HelpKINode Title="RankBy method" Url="html/Overload_MoreLinq_MoreEnumerable_RankBy.htm" />
+  <HelpKINode Title="Repeat method" Url="html/Overload_MoreLinq_MoreEnumerable_Repeat.htm" />
+  <HelpKINode Title="RightJoin method" Url="html/Overload_MoreLinq_MoreEnumerable_RightJoin.htm" />
+  <HelpKINode Title="RunLengthEncode method" Url="html/Overload_MoreLinq_MoreEnumerable_RunLengthEncode.htm" />
+  <HelpKINode Title="Scan method" Url="html/Overload_MoreLinq_MoreEnumerable_Scan.htm" />
+  <HelpKINode Title="ScanRight method" Url="html/Overload_MoreLinq_MoreEnumerable_ScanRight.htm" />
+  <HelpKINode Title="Segment method" Url="html/Overload_MoreLinq_MoreEnumerable_Segment.htm" />
+  <HelpKINode Title="Sequence method" Url="html/Overload_MoreLinq_MoreEnumerable_Sequence.htm" />
+  <HelpKINode Title="SequenceException class">
+    <HelpKINode Title="SequenceException Class" Url="html/T_MoreLinq_SequenceException.htm" />
+    <HelpKINode Title="about SequenceException class" Url="html/T_MoreLinq_SequenceException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_MoreLinq_SequenceException__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_MoreLinq_SequenceException.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_MoreLinq_SequenceException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_MoreLinq_SequenceException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SequenceException.SequenceException constructor" Url="html/Overload_MoreLinq_SequenceException__ctor.htm" />
+  <HelpKINode Title="SingleOrFallback(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="SingleOrFallback&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SingleOrFallback__1.htm" />
+  <HelpKINode Title="SkipLast(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="SkipLast&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipLast__1.htm" />
+  <HelpKINode Title="SkipUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
+  <HelpKINode Title="SkipUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_SkipUntil__1.htm" />
+  <HelpKINode Title="Slice(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
+  <HelpKINode Title="Slice&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Slice__1.htm" />
+  <HelpKINode Title="SortedMerge method" Url="html/Overload_MoreLinq_MoreEnumerable_SortedMerge.htm" />
+  <HelpKINode Title="Split method" Url="html/Overload_MoreLinq_MoreEnumerable_Split.htm" />
+  <HelpKINode Title="StartsWith method" Url="html/Overload_MoreLinq_MoreEnumerable_StartsWith.htm" />
+  <HelpKINode Title="Subsets method" Url="html/Overload_MoreLinq_MoreEnumerable_Subsets.htm" />
+  <HelpKINode Title="TagFirstLast(Of TSource, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_TagFirstLast__2.htm" />
+  <HelpKINode Title="TagFirstLast&lt;TSource, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TagFirstLast__2.htm" />
+  <HelpKINode Title="TakeEvery(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeEvery__1.htm" />
+  <HelpKINode Title="TakeEvery&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeEvery__1.htm" />
+  <HelpKINode Title="TakeLast(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeLast__1.htm" />
+  <HelpKINode Title="TakeLast&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeLast__1.htm" />
+  <HelpKINode Title="TakeUntil(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_TakeUntil__1.htm" />
+  <HelpKINode Title="TakeUntil&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TakeUntil__1.htm" />
+  <HelpKINode Title="ThenBy method" Url="html/Overload_MoreLinq_MoreEnumerable_ThenBy.htm" />
+  <HelpKINode Title="ToArrayByIndex method" Url="html/Overload_MoreLinq_MoreEnumerable_ToArrayByIndex.htm" />
+  <HelpKINode Title="ToDataTable method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDataTable.htm" />
+  <HelpKINode Title="ToDelimitedString method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDelimitedString.htm" />
+  <HelpKINode Title="ToDictionary method" Url="html/Overload_MoreLinq_MoreEnumerable_ToDictionary.htm" />
+  <HelpKINode Title="ToHashSet method" Url="html/Overload_MoreLinq_MoreEnumerable_ToHashSet.htm" />
+  <HelpKINode Title="ToLookup method" Url="html/Overload_MoreLinq_MoreEnumerable_ToLookup.htm" />
+  <HelpKINode Title="Trace method" Url="html/Overload_MoreLinq_MoreEnumerable_Trace.htm" />
+  <HelpKINode Title="TraverseBreadthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
+  <HelpKINode Title="TraverseBreadthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseBreadthFirst__1.htm" />
+  <HelpKINode Title="TraverseDepthFirst(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_TraverseDepthFirst__1.htm" />
+  <HelpKINode Title="TraverseDepthFirst&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_TraverseDepthFirst__1.htm" />
+  <HelpKINode Title="Unfold(Of TState, T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Unfold__3.htm" />
+  <HelpKINode Title="Unfold&lt;TState, T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Unfold__3.htm" />
+  <HelpKINode Title="Windowed(Of TSource) method" Url="html/M_MoreLinq_MoreEnumerable_Windowed__1.htm" />
+  <HelpKINode Title="Windowed&lt;TSource&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Windowed__1.htm" />
+  <HelpKINode Title="ZipLongest(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_ZipLongest__3.htm" />
+  <HelpKINode Title="ZipLongest&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_ZipLongest__3.htm" />
+  <HelpKINode Title="ZipShortest method" Url="html/Overload_MoreLinq_MoreEnumerable_ZipShortest.htm" />
+</HelpKI>

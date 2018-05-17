@@ -17,6 +17,8 @@
   <HelpKINode Title="AtMost(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
   <HelpKINode Title="AtMost&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_AtMost__1.htm" />
   <HelpKINode Title="Await method" Url="html/Overload_MoreLinq_Experimental_ExperimentalEnumerable_Await.htm" />
+  <HelpKINode Title="AwaitCompletion(Of T, TTaskResult, TResult) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AwaitCompletion__3.htm" />
+  <HelpKINode Title="AwaitCompletion&lt;T, TTaskResult, TResult&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AwaitCompletion__3.htm" />
   <HelpKINode Title="AwaitQueryOptions class">
     <HelpKINode Title="AwaitQueryOptions Class" Url="html/T_MoreLinq_Experimental_AwaitQueryOptions.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_MoreLinq_Experimental_AwaitQueryOptions.htm" />
@@ -33,6 +35,8 @@
   <HelpKINode Title="Batch method" Url="html/Overload_MoreLinq_MoreEnumerable_Batch.htm" />
   <HelpKINode Title="Cartesian(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
   <HelpKINode Title="Cartesian&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="Choose(Of T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Choose__2.htm" />
+  <HelpKINode Title="Choose&lt;T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Choose__2.htm" />
   <HelpKINode Title="CompareCount(Of TFirst, TSecond) method" Url="html/M_MoreLinq_MoreEnumerable_CompareCount__2.htm" />
   <HelpKINode Title="CompareCount&lt;TFirst, TSecond&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CompareCount__2.htm" />
   <HelpKINode Title="Concat method" Url="html/Overload_MoreLinq_MoreEnumerable_Concat.htm" />
@@ -41,6 +45,8 @@
   <HelpKINode Title="CountBetween(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
   <HelpKINode Title="CountBetween&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
   <HelpKINode Title="CountBy method" Url="html/Overload_MoreLinq_MoreEnumerable_CountBy.htm" />
+  <HelpKINode Title="CountDown(Of T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_CountDown__2.htm" />
+  <HelpKINode Title="CountDown&lt;T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountDown__2.htm" />
   <HelpKINode Title="Default field" Url="html/F_MoreLinq_Experimental_AwaitQueryOptions_Default.htm" />
   <HelpKINode Title="Descending enumeration member" Url="html/T_MoreLinq_OrderByDirection.htm" />
   <HelpKINode Title="DistinctBy method" Url="html/Overload_MoreLinq_MoreEnumerable_DistinctBy.htm" />
@@ -64,8 +70,12 @@
   <HelpKINode Title="ExperimentalEnumerable.AsUnordered(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AsUnordered__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.AsUnordered&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AsUnordered__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.Await method" Url="html/Overload_MoreLinq_Experimental_ExperimentalEnumerable_Await.htm" />
+  <HelpKINode Title="ExperimentalEnumerable.AwaitCompletion(Of T, TTaskResult, TResult) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AwaitCompletion__3.htm" />
+  <HelpKINode Title="ExperimentalEnumerable.AwaitCompletion&lt;T, TTaskResult, TResult&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_AwaitCompletion__3.htm" />
   <HelpKINode Title="ExperimentalEnumerable.MaxConcurrency(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_MaxConcurrency__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.MaxConcurrency&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_MaxConcurrency__1.htm" />
+  <HelpKINode Title="ExperimentalEnumerable.Memoize(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_Memoize__1.htm" />
+  <HelpKINode Title="ExperimentalEnumerable.Memoize&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_Memoize__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.PreserveOrder(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_PreserveOrder__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.PreserveOrder&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_PreserveOrder__1.htm" />
   <HelpKINode Title="ExperimentalEnumerable.Scheduler(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_Scheduler__1.htm" />
@@ -112,6 +122,8 @@
   <HelpKINode Title="MaxConcurrency property" Url="html/P_MoreLinq_Experimental_AwaitQueryOptions_MaxConcurrency.htm" />
   <HelpKINode Title="MaxConcurrency(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_MaxConcurrency__1.htm" />
   <HelpKINode Title="MaxConcurrency&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_MaxConcurrency__1.htm" />
+  <HelpKINode Title="Memoize(Of T) method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_Memoize__1.htm" />
+  <HelpKINode Title="Memoize&lt;T&gt; method" Url="html/M_MoreLinq_Experimental_ExperimentalEnumerable_Memoize__1.htm" />
   <HelpKINode Title="MinBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MinBy.htm" />
   <HelpKINode Title="MoreEnumerable class">
     <HelpKINode Title="MoreEnumerable Class" Url="html/T_MoreLinq_MoreEnumerable.htm" />
@@ -129,6 +141,8 @@
   <HelpKINode Title="MoreEnumerable.Batch method" Url="html/Overload_MoreLinq_MoreEnumerable_Batch.htm" />
   <HelpKINode Title="MoreEnumerable.Cartesian(Of TFirst, TSecond, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
   <HelpKINode Title="MoreEnumerable.Cartesian&lt;TFirst, TSecond, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Cartesian__3.htm" />
+  <HelpKINode Title="MoreEnumerable.Choose(Of T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_Choose__2.htm" />
+  <HelpKINode Title="MoreEnumerable.Choose&lt;T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Choose__2.htm" />
   <HelpKINode Title="MoreEnumerable.CompareCount(Of TFirst, TSecond) method" Url="html/M_MoreLinq_MoreEnumerable_CompareCount__2.htm" />
   <HelpKINode Title="MoreEnumerable.CompareCount&lt;TFirst, TSecond&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CompareCount__2.htm" />
   <HelpKINode Title="MoreEnumerable.Concat method" Url="html/Overload_MoreLinq_MoreEnumerable_Concat.htm" />
@@ -137,6 +151,8 @@
   <HelpKINode Title="MoreEnumerable.CountBetween(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
   <HelpKINode Title="MoreEnumerable.CountBetween&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountBetween__1.htm" />
   <HelpKINode Title="MoreEnumerable.CountBy method" Url="html/Overload_MoreLinq_MoreEnumerable_CountBy.htm" />
+  <HelpKINode Title="MoreEnumerable.CountDown(Of T, TResult) method" Url="html/M_MoreLinq_MoreEnumerable_CountDown__2.htm" />
+  <HelpKINode Title="MoreEnumerable.CountDown&lt;T, TResult&gt; method" Url="html/M_MoreLinq_MoreEnumerable_CountDown__2.htm" />
   <HelpKINode Title="MoreEnumerable.DistinctBy method" Url="html/Overload_MoreLinq_MoreEnumerable_DistinctBy.htm" />
   <HelpKINode Title="MoreEnumerable.EndsWith method" Url="html/Overload_MoreLinq_MoreEnumerable_EndsWith.htm" />
   <HelpKINode Title="MoreEnumerable.EquiZip method" Url="html/Overload_MoreLinq_MoreEnumerable_EquiZip.htm" />
@@ -173,7 +189,6 @@
   <HelpKINode Title="MoreEnumerable.MinBy method" Url="html/Overload_MoreLinq_MoreEnumerable_MinBy.htm" />
   <HelpKINode Title="MoreEnumerable.Move(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
   <HelpKINode Title="MoreEnumerable.Move&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
-  <HelpKINode Title="MoreEnumerable.NestedLoops method" Url="html/M_MoreLinq_MoreEnumerable_NestedLoops.htm" />
   <HelpKINode Title="MoreEnumerable.OrderBy method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderBy.htm" />
   <HelpKINode Title="MoreEnumerable.OrderedMerge method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderedMerge.htm" />
   <HelpKINode Title="MoreEnumerable.Pad method" Url="html/Overload_MoreLinq_MoreEnumerable_Pad.htm" />
@@ -253,7 +268,6 @@
   <HelpKINode Title="MoreLinq.SequenceException class" Url="html/T_MoreLinq_SequenceException.htm" />
   <HelpKINode Title="Move(Of T) method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
   <HelpKINode Title="Move&lt;T&gt; method" Url="html/M_MoreLinq_MoreEnumerable_Move__1.htm" />
-  <HelpKINode Title="NestedLoops method" Url="html/M_MoreLinq_MoreEnumerable_NestedLoops.htm" />
   <HelpKINode Title="Options property" Url="html/P_MoreLinq_Experimental_IAwaitQuery_1_Options.htm" />
   <HelpKINode Title="OrderBy method" Url="html/Overload_MoreLinq_MoreEnumerable_OrderBy.htm" />
   <HelpKINode Title="OrderByDirection enumeration" Url="html/T_MoreLinq_OrderByDirection.htm" />

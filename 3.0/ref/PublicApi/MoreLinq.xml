@@ -179,16 +179,38 @@
     </member>
     <member name="M:MoreLinq.MoreEnumerable.Cartesian``3(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.Func{``0,``1,``2})">
       <summary>
-            Returns the Cartesian product of two sequences by combining each element of the first set with each in the second
-            and applying the user=define projection to the pair.
+            Returns the Cartesian product of two sequences by combining each
+            element of the first set with each in the second and applying a
+            user-defined projection to the pair.
             </summary>
-      <param name="first">The first sequence of elements</param>
-      <param name="second">The second sequence of elements</param>
-      <param name="resultSelector">A projection function that combines elements from both sequences</param>
-      <typeparam name="TFirst">The type of the elements of <paramref name="first" /></typeparam>
-      <typeparam name="TSecond">The type of the elements of <paramref name="second" /></typeparam>
-      <typeparam name="TResult">The type of the elements of the result sequence</typeparam>
-      <returns>A sequence representing the Cartesian product of the two source sequences</returns>
+      <param name="first">The first sequence of elements.</param>
+      <param name="second">The second sequence of elements.</param>
+      <param name="resultSelector">A projection function that combines
+            elements from both sequences.</param>
+      <typeparam name="TFirst">
+            The type of the elements of <paramref name="first" />.</typeparam>
+      <typeparam name="TSecond">
+            The type of the elements of <paramref name="second" />.</typeparam>
+      <typeparam name="TResult">
+            The type of the elements of the result sequence.</typeparam>
+      <returns>A sequence of elements returned by
+            <paramref name="resultSelector" />.</returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.Choose``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.ValueTuple{System.Boolean,``1}})">
+      <summary>
+            Applies a function to each element of the source sequence and
+            returns a new sequence of result elements for source elements
+            where the function returns a couple (2-tuple) having a <c>true</c>
+            as its first element and result as the second.
+            </summary>
+      <param name="source"> The source sequence.</param>
+      <param name="chooser">The function that is applied to each source
+            element.</param>
+      <typeparam name="T">
+            The type of the elements in <paramref name="source" />.</typeparam>
+      <typeparam name="TResult">
+            The type of the elements in the returned sequence.</typeparam>
+      <returns>A sequence <typeparamref name="TResult" /> elements.</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.CompareCount``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1})">
       <summary>
@@ -276,6 +298,30 @@
       <typeparam name="TSource">Type of the elements of the source sequence.</typeparam>
       <typeparam name="TKey">Type of the projected element.</typeparam>
       <returns>A sequence of unique keys and their number of occurrences in the original sequence.</returns>
+    </member>
+    <member name="M:MoreLinq.MoreEnumerable.CountDown``2(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Func{``0,System.Nullable{System.Int32},``1})">
+      <summary>
+            Provides a countdown counter for a given count of elements at the
+            tail of the sequence where zero always represents the last element,
+            one represents the second-last element, two represents the
+            third-last element and so on.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="count">Count of tail elements of
+            <paramref name="source" /> to count down.</param>
+      <param name="resultSelector">
+            A function that receives the element and the current countdown
+            value for the element and which returns those mapped to a
+            result returned in the resulting sequence. For elements before
+            the last <paramref name="count" />, the coundown value is
+            <c>null</c>.</param>
+      <typeparam name="T">
+            The type of elements of <paramref name="source" /></typeparam>
+      <typeparam name="TResult">
+            The type of elements of the resulting sequence.</typeparam>
+      <returns>
+            A sequence of results returned by
+            <paramref name="resultSelector" />.</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
       <summary>
@@ -586,8 +632,9 @@
       <param name="predicate">The function used to determine if
             an element in the sequence is considered missing.</param>
       <param name="fillSelector">The function used to produce the element
-            that will replace the missing one. It receives the next non-missing
-            element as well as the current element considered missing.</param>
+            that will replace the missing one. Its first argument receives the
+            current element considered missing while the second argument
+            receives the next non-missing element.</param>
       <typeparam name="T">Type of the elements in the source sequence.</typeparam>
       <returns>
             An <see cref="T:System.Collections.Generic.IEnumerable`1" /> with missing elements filled.
@@ -633,9 +680,9 @@
       <param name="predicate">The function used to determine if
             an element in the sequence is considered missing.</param>
       <param name="fillSelector">The function used to produce the element
-            that will replace the missing one. It receives the previous
-            non-missing element as well as the current element considered
-            missing.</param>
+            that will replace the missing one. Its first argument receives the
+            current element considered missing while the second argument
+            receives the previous non-missing element.</param>
       <typeparam name="T">Type of the elements in the source sequence.</typeparam>
       <returns>
             An <see cref="T:System.Collections.Generic.IEnumerable`1" /> with missing values replaced.
@@ -1229,9 +1276,12 @@
       <summary>
             Returns a sequence of values based on indexes.
             </summary>
-      <param name="generator">Generation function to apply to each index</param>
-      <typeparam name="TResult">Type of result to generate</typeparam>
-      <returns>A sequence </returns>
+      <param name="generator">
+            Generation function to apply to each index.</param>
+      <typeparam name="TResult">
+            The type of the value returned by <paramref name="generator" />
+            and therefore the elements of the generated sequence.</typeparam>
+      <returns>A sequence of generated results.</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.GroupAdjacent``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})">
       <summary>
@@ -1681,15 +1731,6 @@
       <returns>
             A sequence with the specified range moved to the new position.
             </returns>
-    </member>
-    <member name="M:MoreLinq.MoreEnumerable.NestedLoops(System.Action,System.Collections.Generic.IEnumerable{System.Int32})">
-      <summary>
-            Produces a sequence from an action based on the dynamic generation of N nested loops
-            whose iteration counts are defined by a sequence of loop counts.
-            </summary>
-      <param name="action">Action delegate for which to produce a nested loop sequence</param>
-      <param name="loopCounts">A sequence of loop repetition counts</param>
-      <returns>A sequence of Action representing the expansion of a set of nested loops</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.OrderBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},MoreLinq.OrderByDirection)">
       <summary>
@@ -2400,22 +2441,32 @@
     </member>
     <member name="M:MoreLinq.MoreEnumerable.RandomSubset``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
       <summary>
-            Returns a sequence of a specified size of random elements from the original sequence
+            Returns a sequence of a specified size of random elements from the
+            original sequence.
             </summary>
-      <param name="sequence">The sequence from which to return random elements</param>
-      <param name="subsetSize">The size of the random subset to return</param>
-      <typeparam name="T">The type of elements in the sequence</typeparam>
-      <returns>A random sequence of elements in random order from the original sequence</returns>
+      <param name="sequence">
+            The sequence from which to return random elements.</param>
+      <param name="subsetSize">The size of the random subset to return.</param>
+      <typeparam name="T">The type of source sequence elements.</typeparam>
+      <returns>
+            A random sequence of elements in random order from the original
+            sequence.</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.RandomSubset``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Random)">
       <summary>
-            Returns a sequence of a specified size of random elements from the original sequence
+            Returns a sequence of a specified size of random elements from the
+            original sequence. An additional parameter specifies a random
+            generator to be used for the random selection algorithm.
             </summary>
-      <param name="sequence">The sequence from which to return random elements</param>
-      <param name="subsetSize">The size of the random subset to return</param>
-      <param name="rand">A random generator used as part of the selection algorithm</param>
-      <typeparam name="T">The type of elements in the sequence</typeparam>
-      <returns>A random sequence of elements in random order from the original sequence</returns>
+      <param name="sequence">
+            The sequence from which to return random elements.</param>
+      <param name="subsetSize">The size of the random subset to return.</param>
+      <param name="rand">
+            A random generator used as part of the selection algorithm.</param>
+      <typeparam name="T">The type of source sequence elements.</typeparam>
+      <returns>
+            A random sequence of elements in random order from the original
+            sequence.</returns>
     </member>
     <member name="M:MoreLinq.MoreEnumerable.Rank``1(System.Collections.Generic.IEnumerable{``0})">
       <summary>
@@ -3989,7 +4040,7 @@
             the source sequence as it completes asynchronously. A
             <see cref="T:System.Threading.CancellationToken" /> is passed for each asynchronous
             evaluation to abort any asynchronous operations in flight if the
-            sequence is not full iterated.
+            sequence is not fully iterated.
             </summary>
       <param name="source">The source sequence.</param>
       <param name="evaluator">A function to begin the asynchronous
@@ -3997,6 +4048,29 @@
             <see cref="T:System.Threading.CancellationToken" /> that can be used to abort
             asynchronous operations.</param>
       <typeparam name="T">The type of the source elements.</typeparam>
+      <typeparam name="TResult">The type of the result elements.</typeparam>
+      <returns>
+            A sequence query that stream its results as they are
+            evaluated asynchronously.
+            </returns>
+    </member>
+    <member name="M:MoreLinq.Experimental.ExperimentalEnumerable.AwaitCompletion``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Threading.CancellationToken,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1},``2})">
+      <summary>
+            Awaits completion of all asynchronous evaluations irrespective of
+            whether they succeed or fail. An additional argument specifies a
+            function that projects the final result given the source item and
+            completed task.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <param name="evaluator">A function to begin the asynchronous
+            evaluation of each element, the second parameter of which is a
+            <see cref="T:System.Threading.CancellationToken" /> that can be used to abort
+            asynchronous operations.</param>
+      <param name="resultSelector">A fucntion that projects the final
+            result given the source item and its asynchronous completion
+            result.</param>
+      <typeparam name="T">The type of the source elements.</typeparam>
+      <typeparam name="TTaskResult"> The type of the tasks's result.</typeparam>
       <typeparam name="TResult">The type of the result elements.</typeparam>
       <returns>
             A sequence query that stream its results as they are
@@ -4014,6 +4088,20 @@
       <returns>
             A query whose results evaluate asynchronously using the given
             concurrency limit.</returns>
+    </member>
+    <member name="M:MoreLinq.Experimental.ExperimentalEnumerable.Memoize``1(System.Collections.Generic.IEnumerable{``0})">
+      <summary>
+            Creates a sequence that lazily caches the source as it is iterated
+            for the first time, reusing the cache thereafter for future
+            re-iterations. If the source is already cached or buffered then it
+            is returned verbatim.
+            </summary>
+      <param name="source">The source sequence.</param>
+      <typeparam name="T">
+            Type of elements in <paramref name="source" />.</typeparam>
+      <returns>
+            Returns a sequence that corresponds to a cached version of the
+            input sequence.</returns>
     </member>
     <member name="M:MoreLinq.Experimental.ExperimentalEnumerable.PreserveOrder``1(MoreLinq.Experimental.IAwaitQuery{``0},System.Boolean)">
       <summary>

@@ -2,4 +2,4 @@
 *.aspx
 *.php
 [Ww]eb.config
-
+.vs/
